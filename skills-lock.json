@@ -85,6 +85,11 @@
       "source": "pbakaus/impeccable",
       "sourceType": "github",
       "computedHash": "1cd76e560d1ba25b0bd5f7adfa2957a9f653a3ad0b031d467221154fcd1e0423"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "computedHash": "b2f9e35a4219e51d156468a2e2ec531be7f171aea467d76242c00bd3a7014b34"
     }
   }
 }
