@@ -1,0 +1,447 @@
+[
+{
+"word": "Guys",
+"start": 0.175,
+"end": 0.32
+},
+{
+"word": "are",
+"start": 0.434,
+"end": 0.472
+},
+{
+"word": "quietly",
+"start": 0.511,
+"end": 0.891
+},
+{
+"word": "using",
+"start": 1.005,
+"end": 1.158
+},
+{
+"word": "something",
+"start": 1.272,
+"end": 1.425
+},
+{
+"word": "called",
+"start": 1.577,
+"end": 1.73
+},
+{
+"word": "the",
+"start": 1.768,
+"end": 1.844
+},
+{
+"word": "Secret",
+"start": 1.882,
+"end": 2.111
+},
+{
+"word": "Optimization\u2026",
+"start": 2.263,
+"end": 3.044
+},
+{
+"word": "and",
+"start": 3.275,
+"end": 3.427
+},
+{
+"word": "look",
+"start": 3.465,
+"end": 3.542
+},
+{
+"word": "what's",
+"start": 3.579,
+"end": 3.694
+},
+{
+"word": "happening",
+"start": 3.732,
+"end": 3.884
+},
+{
+"word": "to",
+"start": 3.999,
+"end": 4.113
+},
+{
+"word": "their",
+"start": 4.151,
+"end": 4.227
+},
+{
+"word": "matches.",
+"start": 4.265,
+"end": 4.547
+},
+{
+"word": "Dating",
+"start": 4.925,
+"end": 5.115
+},
+{
+"word": "apps",
+"start": 5.229,
+"end": 5.382
+},
+{
+"word": "decide",
+"start": 5.458,
+"end": 5.61
+},
+{
+"word": "who",
+"start": 5.801,
+"end": 5.915
+},
+{
+"word": "sees",
+"start": 5.953,
+"end": 6.105
+},
+{
+"word": "your",
+"start": 6.143,
+"end": 6.219
+},
+{
+"word": "profile",
+"start": 6.258,
+"end": 6.601
+},
+{
+"word": "first.",
+"start": 6.639,
+"end": 7.058
+},
+{
+"word": "Most",
+"start": 7.132,
+"end": 7.361
+},
+{
+"word": "guys",
+"start": 7.437,
+"end": 7.552
+},
+{
+"word": "never",
+"start": 7.628,
+"end": 7.742
+},
+{
+"word": "find",
+"start": 7.856,
+"end": 8.009
+},
+{
+"word": "out",
+"start": 8.046,
+"end": 8.161
+},
+{
+"word": "how.",
+"start": 8.237,
+"end": 8.469
+},
+{
+"word": "We",
+"start": 8.739,
+"end": 8.853
+},
+{
+"word": "analyzed",
+"start": 8.892,
+"end": 9.196
+},
+{
+"word": "a",
+"start": 9.234,
+"end": 9.272
+},
+{
+"word": "million",
+"start": 9.311,
+"end": 9.501
+},
+{
+"word": "profiles.",
+"start": 9.691,
+"end": 10.358
+},
+{
+"word": "The",
+"start": 10.529,
+"end": 10.529
+},
+{
+"word": "ones",
+"start": 10.545,
+"end": 10.621
+},
+{
+"word": "shown",
+"start": 10.735,
+"end": 10.887
+},
+{
+"word": "to",
+"start": 10.925,
+"end": 11.001
+},
+{
+"word": "everyone",
+"start": 11.04,
+"end": 11.23
+},
+{
+"word": "do",
+"start": 11.383,
+"end": 11.497
+},
+{
+"word": "the",
+"start": 11.535,
+"end": 11.573
+},
+{
+"word": "same",
+"start": 11.611,
+"end": 11.764
+},
+{
+"word": "things.",
+"start": 11.84,
+"end": 12.05
+},
+{
+"word": "What",
+"start": 12.555,
+"end": 12.712
+},
+{
+"word": "gets",
+"start": 12.75,
+"end": 12.826
+},
+{
+"word": "you",
+"start": 12.864,
+"end": 12.94
+},
+{
+"word": "seen",
+"start": 12.979,
+"end": 13.131
+},
+{
+"word": "first.",
+"start": 13.207,
+"end": 13.817
+},
+{
+"word": "The",
+"start": 14.049,
+"end": 14.163
+},
+{
+"word": "settings",
+"start": 14.201,
+"end": 14.392
+},
+{
+"word": "nobody",
+"start": 14.468,
+"end": 14.582
+},
+{
+"word": "touches.",
+"start": 14.735,
+"end": 15.248
+},
+{
+"word": "The",
+"start": 15.458,
+"end": 15.484
+},
+{
+"word": "signals",
+"start": 15.514,
+"end": 15.781
+},
+{
+"word": "that",
+"start": 15.856,
+"end": 15.932
+},
+{
+"word": "move",
+"start": 15.971,
+"end": 16.085
+},
+{
+"word": "you",
+"start": 16.123,
+"end": 16.199
+},
+{
+"word": "up.",
+"start": 16.238,
+"end": 16.398
+},
+{
+"word": "No",
+"start": 16.747,
+"end": 16.795
+},
+{
+"word": "photographer.",
+"start": 16.795,
+"end": 17.469
+},
+{
+"word": "No",
+"start": 17.687,
+"end": 17.865
+},
+{
+"word": "premium",
+"start": 17.902,
+"end": 18.245
+},
+{
+"word": "subscription.",
+"start": 18.283,
+"end": 18.893
+},
+{
+"word": "Thirty",
+"start": 19.069,
+"end": 19.188
+},
+{
+"word": "minutes.",
+"start": 19.264,
+"end": 19.44
+},
+{
+"word": "One",
+"start": 19.969,
+"end": 20.12
+},
+{
+"word": "guy",
+"start": 20.158,
+"end": 20.273
+},
+{
+"word": "told",
+"start": 20.311,
+"end": 20.463
+},
+{
+"word": "us:",
+"start": 20.501,
+"end": 20.654
+},
+{
+"word": "\"I'm",
+"start": 20.73,
+"end": 20.962
+},
+{
+"word": "getting",
+"start": 21.001,
+"end": 21.076
+},
+{
+"word": "almost",
+"start": 21.153,
+"end": 21.267
+},
+{
+"word": "10X",
+"start": 21.419,
+"end": 21.953
+},
+{
+"word": "more",
+"start": 22.067,
+"end": 22.182
+},
+{
+"word": "matches.\"",
+"start": 22.219,
+"end": 22.576
+},
+{
+"word": "It's",
+"start": 22.878,
+"end": 22.901
+},
+{
+"word": "inside",
+"start": 22.938,
+"end": 23.053
+},
+{
+"word": "The",
+"start": 23.281,
+"end": 23.395
+},
+{
+"word": "10X",
+"start": 23.434,
+"end": 23.662
+},
+{
+"word": "Match",
+"start": 23.777,
+"end": 23.929
+},
+{
+"word": "Secret.",
+"start": 24.005,
+"end": 24.405
+},
+{
+"word": "Just",
+"start": 24.615,
+"end": 24.657
+},
+{
+"word": "nine-ninety.",
+"start": 24.733,
+"end": 25.323
+},
+{
+"word": "Tap",
+"start": 25.511,
+"end": 25.578
+},
+{
+"word": "below",
+"start": 25.655,
+"end": 25.731
+},
+{
+"word": "to",
+"start": 25.845,
+"end": 25.921
+},
+{
+"word": "unlock",
+"start": 25.96,
+"end": 26.188
+},
+{
+"word": "it.",
+"start": 26.227,
+"end": 26.478
+}
+]
