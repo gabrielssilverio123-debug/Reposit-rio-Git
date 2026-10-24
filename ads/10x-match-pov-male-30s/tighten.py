@@ -1,8 +1,8 @@
 import json,subprocess,sys,re
-# silences (start,end) detected at -40dB/0.16s on vo_raw.mp3
-out=subprocess.run(['ffmpeg','-hide_banner','-i','vo_raw.mp3','-af','silencedetect=n=-40dB:d=0.16','-f','null','-'],capture_output=True,text=True).stderr
+# silences (start,end) detected at -40dB/0.16s on vo2_raw.mp3
+out=subprocess.run(['ffmpeg','-hide_banner','-i','vo2_raw.mp3','-af','silencedetect=n=-40dB:d=0.16','-f','null','-'],capture_output=True,text=True).stderr
 st=[float(x) for x in re.findall(r'silence_start: ([0-9.]+)',out)]; en=[float(x) for x in re.findall(r'silence_end: ([0-9.]+)',out)]
-sil=list(zip(st,en)); DUR=float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0","vo_raw.mp3"],capture_output=True,text=True).stdout)
+sil=list(zip(st,en)); DUR=float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0","vo2_raw.mp3"],capture_output=True,text=True).stdout)
 keep=[] # source segments to keep
 cur=0.0
 for i,(a,b) in enumerate(sil):

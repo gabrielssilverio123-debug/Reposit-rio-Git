@@ -131,7 +131,7 @@ const Hook: React.FC = () => {
   const secs = interpolate(f, [two, two + 40], [2.0, 0.0], clamp);
   const timer = pop(f, two - 2, fps);
   const punch = interpolate(f, [0, 5], [1.42, 1.26], { ...clamp, easing: ease });
-  const face = at('face');
+  const face = at('she');
   const zoom2 = interpolate(f, [face, face + 4], [0, 0.08], clamp);
   return (
     <AbsoluteFill style={{ background: C.bg }}>
@@ -211,6 +211,10 @@ const Turn: React.FC = () => {
   const bio = pop(f, at('bio'), fps);
   const match = at('right') + 6;
   const m = spring({ frame: f - match, fps, config: { damping: 10, stiffness: 220 } });
+  const flip = at("That's") - 2;
+  const flipIn = spring({ frame: f - flip, fps, config: { damping: 200 }, durationInFrames: 8 });
+  const nope = at('profile', 2);
+  const nopeS = pop(f, nope, fps);
   return (
     <Split herFrom={S.turnStart}>
       <ProfileCard p={p} f={f} fps={fps} dir={1} stampText="LIKE" stampColor={C.green} />
@@ -219,12 +223,12 @@ const Turn: React.FC = () => {
           <div style={{ position: 'absolute', left: 600, top: 150, transform: `scale(${light})` }}>
             <Tag text="✓ GOOD LIGHT" color={C.white} bg={C.violet} />
           </div>
-          <div style={{ position: 'absolute', left: 190, top: 670, transform: `scale(${bio})` }}>
+          <div style={{ position: 'absolute', left: 500, top: 655, transform: `scale(${bio})` }}>
             <Tag text="✓ A BIO WORTH ANSWERING" color={C.white} bg={C.violet} />
           </div>
         </>
       )}
-      {f >= match && (
+      {f >= match && f < flip && (
         <AbsoluteFill style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: `rgba(11,6,20,${Math.min(0.75, m)})` }}>
           <div style={{ transform: `scale(${interpolate(m, [0, 1], [2.6, 1])}) rotate(-5deg)`, opacity: Math.min(1, m * 2), textAlign: 'center' }}>
             <div style={{ fontFamily: INTER, fontWeight: 900, fontStyle: 'italic', fontSize: 46, letterSpacing: 4, color: C.white }}>IT'S A</div>
@@ -238,6 +242,20 @@ const Turn: React.FC = () => {
               </div>
             ) : null;
           })}
+        </AbsoluteFill>
+      )}
+      {f >= flip && (
+        // The flip: now it's the viewer's own profile being judged.
+        <AbsoluteFill style={{ background: C.bg }}>
+          <Glow y="45%" o={0.45} />
+          <div style={{ position: 'absolute', left: 230, top: 110, width: 620, height: 700, borderRadius: 32, overflow: 'hidden', background: C.card, boxShadow: '0 30px 90px rgba(0,0,0,0.6)', transform: `scale(${0.85 + flipIn * 0.15}) rotate(${(1 - flipIn) * -6}deg)`, opacity: flipIn }}>
+            <Img src={staticFile('before.jpg')} style={{ width: 620, height: 560, objectFit: 'cover', objectPosition: '50% 30%' }} />
+            <div style={{ position: 'absolute', left: 26, top: 580, fontFamily: INTER, fontWeight: 800, fontSize: 40, color: C.white }}>You, 31</div>
+            <Tag text="YOUR PROFILE?" color={C.white} bg={C.violet} style={{ position: 'absolute', left: 20, top: 20 }} />
+            {f >= nope && (
+              <div style={{ position: 'absolute', right: 30, top: 70, transform: `rotate(14deg) scale(${interpolate(nopeS, [0, 1], [2, 1])})`, opacity: Math.min(1, nopeS * 1.5), padding: '6px 22px', border: `7px solid ${C.red}`, borderRadius: 14, color: C.red, fontFamily: INTER, fontWeight: 900, fontSize: 72, letterSpacing: 4 }}>NOPE</div>
+            )}
+          </div>
         </AbsoluteFill>
       )}
     </Split>
@@ -385,7 +403,9 @@ export const Ad: React.FC = () => (
     </Sequence>
     <Sfx at={0} src="scratch.mp3" volume={0.35} />
     <Sfx at={0} src="subdrop.mp3" volume={0.45} />
-    <Sfx at={at('face') + 2} src="boom_low.mp3" volume={0.3} />
+    <Sfx at={at('she') + 2} src="boom_low.mp3" volume={0.3} />
+    <Sfx at={at("That's") - 2} src="swish.mp3" volume={0.4} />
+    <Sfx at={at('profile', 2)} src="nope.mp3" volume={0.22} />
     <Sfx at={S.hookEnd - 3} src="whoosh.mp3" volume={0.35} />
     {[1, 2, 3].map((n) => (
       <React.Fragment key={n}>

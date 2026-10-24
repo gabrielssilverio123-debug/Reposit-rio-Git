@@ -2,386 +2,406 @@
 {
 "word": "Guys\u2026",
 "start": 0.025,
-"end": 0.439
+"end": 0.328
 },
 {
-"word": "she",
-"start": 0.532,
-"end": 0.687
+"word": "I",
+"start": 0.484,
+"end": 0.716
 },
 {
-"word": "swipes",
-"start": 0.725,
-"end": 0.919
+"word": "swipe",
+"start": 0.754,
+"end": 0.91
 },
 {
 "word": "left",
-"start": 1.036,
-"end": 1.191
+"start": 0.987,
+"end": 1.143
 },
 {
 "word": "in",
-"start": 1.269,
-"end": 1.346
+"start": 1.259,
+"end": 1.298
 },
 {
 "word": "two",
-"start": 1.385,
-"end": 1.501
+"start": 1.336,
+"end": 1.492
 },
 {
 "word": "seconds.",
-"start": 1.54,
-"end": 1.909
+"start": 1.531,
+"end": 1.918
 },
 {
 "word": "And",
-"start": 2.091,
-"end": 2.18
+"start": 2.054,
+"end": 2.17
 },
 {
-"word": "it's",
-"start": 2.219,
-"end": 2.335
+"word": "so",
+"start": 2.209,
+"end": 2.326
 },
 {
-"word": "almost",
-"start": 2.374,
-"end": 2.452
+"word": "does",
+"start": 2.365,
+"end": 2.403
 },
 {
-"word": "never",
-"start": 2.568,
-"end": 2.801
-},
-{
-"word": "your",
-"start": 2.878,
-"end": 2.995
-},
-{
-"word": "face.",
-"start": 3.034,
-"end": 3.239
+"word": "she.",
+"start": 2.442,
+"end": 2.601
 },
 {
 "word": "Car",
-"start": 3.634,
-"end": 3.789
+"start": 2.833,
+"end": 3.027
 },
 {
 "word": "selfie?",
-"start": 3.827,
-"end": 4.234
+"start": 3.065,
+"end": 3.436
 },
 {
 "word": "Left.",
-"start": 4.37,
-"end": 4.571
+"start": 3.537,
+"end": 3.735
 },
 {
 "word": "Sunglasses",
-"start": 4.839,
-"end": 5.189
+"start": 4.119,
+"end": 4.507
 },
 {
 "word": "in",
-"start": 5.344,
-"end": 5.46
+"start": 4.624,
+"end": 4.74
 },
 {
 "word": "every",
-"start": 5.499,
-"end": 5.538
+"start": 4.778,
+"end": 4.817
 },
 {
 "word": "photo?",
-"start": 5.616,
-"end": 5.907
+"start": 4.895,
+"end": 5.244
 },
 {
 "word": "Left.",
-"start": 6.042,
-"end": 6.239
+"start": 5.371,
+"end": 5.607
 },
 {
 "word": "\"Just",
-"start": 6.427,
-"end": 6.586
+"start": 5.987,
+"end": 6.146
 },
 {
 "word": "ask\"?",
-"start": 6.663,
-"end": 6.888
+"start": 6.224,
+"end": 6.456
 },
 {
 "word": "Come",
-"start": 7.098,
-"end": 7.176
+"start": 6.698,
+"end": 6.814
 },
 {
-"word": "on,",
-"start": 7.215,
-"end": 7.37
-},
-{
-"word": "man.",
-"start": 7.409,
-"end": 7.584
+"word": "on.",
+"start": 6.853,
+"end": 7.086
 },
 {
 "word": "Left.",
-"start": 7.68,
-"end": 7.926
+"start": 7.202,
+"end": 7.452
 },
 {
 "word": "But",
-"start": 8.438,
-"end": 8.472
+"start": 7.687,
+"end": 7.734
 },
 {
 "word": "a",
-"start": 8.511,
-"end": 8.549
+"start": 7.772,
+"end": 7.811
 },
 {
 "word": "profile",
-"start": 8.588,
-"end": 8.86
+"start": 7.851,
+"end": 8.083
 },
 {
 "word": "like",
-"start": 8.898,
-"end": 8.976
+"start": 8.161,
+"end": 8.238
 },
 {
 "word": "this?",
-"start": 9.054,
-"end": 9.461
+"start": 8.316,
+"end": 8.626
 },
 {
 "word": "Good",
-"start": 9.661,
-"end": 9.841
+"start": 8.82,
+"end": 8.939
 },
 {
 "word": "light,",
-"start": 9.88,
-"end": 10.17
+"start": 8.978,
+"end": 9.269
 },
 {
 "word": "a",
-"start": 10.307,
-"end": 10.506
+"start": 9.404,
+"end": 9.56
 },
 {
 "word": "bio",
-"start": 10.545,
-"end": 10.777
+"start": 9.598,
+"end": 9.753
 },
 {
-"word": "she",
-"start": 10.894,
-"end": 11.01
+"word": "I",
+"start": 9.909,
+"end": 9.986
 },
 {
 "word": "actually",
-"start": 11.048,
-"end": 11.165
+"start": 10.025,
+"end": 10.142
 },
 {
-"word": "wants",
-"start": 11.32,
-"end": 11.436
+"word": "want",
+"start": 10.335,
+"end": 10.452
 },
 {
 "word": "to",
-"start": 11.476,
-"end": 11.553
+"start": 10.491,
+"end": 10.529
 },
 {
 "word": "answer\u2026",
-"start": 11.592,
-"end": 12.018
+"start": 10.568,
+"end": 10.936
 },
 {
 "word": "right.",
-"start": 12.246,
-"end": 12.356
+"start": 11.189,
+"end": 11.362
 },
 {
-"word": "And",
-"start": 12.691,
-"end": 12.873
+"word": "That's",
+"start": 11.882,
+"end": 12.153
 },
 {
-"word": "it",
-"start": 12.873,
-"end": 12.899
+"word": "exactly",
+"start": 12.192,
+"end": 12.581
 },
 {
-"word": "works.",
-"start": 12.938,
-"end": 13.404
-},
-{
-"word": "This",
-"start": 13.629,
-"end": 13.78
-},
-{
-"word": "couple",
-"start": 13.858,
-"end": 13.974
-},
-{
-"word": "met",
-"start": 14.09,
-"end": 14.285
-},
-{
-"word": "after",
-"start": 14.362,
-"end": 14.478
+"word": "how",
+"start": 12.735,
+"end": 12.851
 },
 {
 "word": "she",
-"start": 14.595,
-"end": 14.711
+"start": 12.891,
+"end": 13.007
 },
 {
-"word": "used",
-"start": 14.75,
-"end": 14.905
-},
-{
-"word": "the",
-"start": 14.944,
-"end": 15.06
-},
-{
-"word": "exact",
-"start": 15.099,
-"end": 15.409
-},
-{
-"word": "same",
-"start": 15.565,
-"end": 15.758
-},
-{
-"word": "toolkit.",
-"start": 15.875,
-"end": 16.258
-},
-{
-"word": "It's",
-"start": 16.563,
-"end": 16.669
-},
-{
-"word": "called",
-"start": 16.708,
-"end": 16.863
-},
-{
-"word": "The",
-"start": 17.018,
-"end": 17.212
-},
-{
-"word": "10X",
-"start": 17.25,
-"end": 17.794
-},
-{
-"word": "Match",
-"start": 17.949,
-"end": 18.181
-},
-{
-"word": "Secret.",
-"start": 18.337,
-"end": 18.769
-},
-{
-"word": "Twenty",
-"start": 18.96,
-"end": 19.183
-},
-{
-"word": "photo",
-"start": 19.26,
-"end": 19.376
-},
-{
-"word": "setups,",
-"start": 19.493,
-"end": 19.958
-},
-{
-"word": "fifty",
-"start": 20.114,
-"end": 20.215
-},
-{
-"word": "bios,",
-"start": 20.332,
-"end": 20.816
-},
-{
-"word": "one",
-"start": 20.952,
-"end": 21.34
-},
-{
-"word": "secret",
-"start": 21.534,
-"end": 21.766
-},
-{
-"word": "optimization.",
-"start": 21.961,
-"end": 22.659
-},
-{
-"word": "Just",
-"start": 22.859,
-"end": 22.9
-},
-{
-"word": "nine-ninety.",
-"start": 22.978,
-"end": 23.657
-},
-{
-"word": "Tap",
-"start": 23.948,
-"end": 24.028
-},
-{
-"word": "below,",
-"start": 24.105,
-"end": 24.338
-},
-{
-"word": "before",
-"start": 24.493,
-"end": 24.571
+"word": "sees",
+"start": 13.046,
+"end": 13.201
 },
 {
 "word": "your",
-"start": 24.726,
-"end": 24.842
+"start": 13.279,
+"end": 13.356
+},
+{
+"word": "profile.",
+"start": 13.395,
+"end": 13.782
+},
+{
+"word": "And",
+"start": 14.085,
+"end": 14.085
+},
+{
+"word": "it",
+"start": 14.085,
+"end": 14.118
+},
+{
+"word": "works.",
+"start": 14.157,
+"end": 14.616
+},
+{
+"word": "This",
+"start": 14.794,
+"end": 14.935
+},
+{
+"word": "couple",
+"start": 14.974,
+"end": 15.091
+},
+{
+"word": "met",
+"start": 15.207,
+"end": 15.401
+},
+{
+"word": "after",
+"start": 15.479,
+"end": 15.595
+},
+{
+"word": "she",
+"start": 15.712,
+"end": 15.828
+},
+{
+"word": "used",
+"start": 15.866,
+"end": 16.022
+},
+{
+"word": "the",
+"start": 16.061,
+"end": 16.177
+},
+{
+"word": "exact",
+"start": 16.215,
+"end": 16.681
+},
+{
+"word": "same",
+"start": 16.913,
+"end": 17.108
+},
+{
+"word": "toolkit.",
+"start": 17.263,
+"end": 17.647
+},
+{
+"word": "It's",
+"start": 17.961,
+"end": 18.011
+},
+{
+"word": "called",
+"start": 18.05,
+"end": 18.166
+},
+{
+"word": "The",
+"start": 18.243,
+"end": 18.322
+},
+{
+"word": "10X",
+"start": 18.36,
+"end": 18.748
+},
+{
+"word": "Match",
+"start": 18.864,
+"end": 19.097
+},
+{
+"word": "Secret.",
+"start": 19.213,
+"end": 19.602
+},
+{
+"word": "Twenty",
+"start": 19.811,
+"end": 19.969
+},
+{
+"word": "photo",
+"start": 20.047,
+"end": 20.202
+},
+{
+"word": "setups,",
+"start": 20.318,
+"end": 20.784
+},
+{
+"word": "fifty",
+"start": 20.9,
+"end": 21.089
+},
+{
+"word": "bios,",
+"start": 21.206,
+"end": 21.671
+},
+{
+"word": "one",
+"start": 21.826,
+"end": 22.253
+},
+{
+"word": "secret",
+"start": 22.369,
+"end": 22.563
+},
+{
+"word": "optimization.",
+"start": 22.718,
+"end": 23.358
+},
+{
+"word": "Just",
+"start": 23.571,
+"end": 23.687
+},
+{
+"word": "nine-ninety.",
+"start": 23.766,
+"end": 24.444
+},
+{
+"word": "Tap",
+"start": 24.611,
+"end": 24.731
+},
+{
+"word": "below,",
+"start": 24.808,
+"end": 25.041
+},
+{
+"word": "before",
+"start": 25.197,
+"end": 25.274
+},
+{
+"word": "your",
+"start": 25.429,
+"end": 25.546
 },
 {
 "word": "next",
-"start": 24.881,
-"end": 24.959
+"start": 25.584,
+"end": 25.623
 },
 {
 "word": "swipe.",
-"start": 25.075,
-"end": 25.461
+"start": 25.739,
+"end": 26.143
 }
 ]
