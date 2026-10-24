@@ -1,0 +1,1 @@
+../../plugins/criativos-video/agents/video-creative-director.md
