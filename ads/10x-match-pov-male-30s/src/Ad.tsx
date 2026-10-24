@@ -186,9 +186,9 @@ const Split: React.FC<{ children: React.ReactNode; herFrom: number }> = ({ child
   </AbsoluteFill>
 );
 const PROFILES: P[] = [
-  { img: 'before.jpg', name: 'Ryan, 31', bio: 'Not good at bios. Love travel, food and good vibes.', label: 'CAR SELFIE', enter: 0, out: at('Left', 1), pos: '50% 30%' },
-  { img: 'bad2.jpg', name: 'Mike, 30', bio: 'Living my best life. Ask me anything.', label: 'SUNGLASSES', enter: at('Left', 1) + 6, out: at('Left', 2), pos: '50% 25%' },
-  { img: 'bad3.jpg', name: 'Josh, 29', bio: '"Just ask."', label: 'THE BIO', enter: at('Left', 2) + 6, out: at('Left', 3), pos: '50% 20%', bioFocus: true },
+  { img: 'w1.jpg', name: 'Emily, 28', bio: 'Not good at bios. Love travel, food and good vibes.', label: 'CAR SELFIE', enter: 0, out: at('Left', 1), pos: '50% 30%' },
+  { img: 'w2.jpg', name: 'Kayla, 27', bio: 'Living my best life. Ask me anything.', label: 'SUNGLASSES', enter: at('Left', 1) + 6, out: at('Left', 2), pos: '50% 25%' },
+  { img: 'w3.jpg', name: 'Megan, 29', bio: '"Just ask."', label: 'THE BIO', enter: at('Left', 2) + 6, out: at('Left', 3), pos: '50% 30%', bioFocus: true },
 ];
 const SwipeLeft: React.FC = () => {
   const f = useCurrentFrame() + S.hookEnd; // global frame
@@ -206,7 +206,7 @@ const SwipeLeft: React.FC = () => {
 const Turn: React.FC = () => {
   const f = useCurrentFrame() + S.turnStart;
   const { fps } = useVideoConfig();
-  const p: P = { img: 'after.jpg', name: 'Ryan, 31', bio: 'Terrible at karaoke. Great at finding the best ramen in any city. Your go-to order?', label: 'THE FIX', enter: S.turnStart + 2, out: at('right'), pos: '50% 12%' };
+  const p: P = { img: 'w4.jpg', name: 'Sophia, 28', bio: 'Terrible at karaoke. Great at finding the best ramen in any city. Your go-to order?', label: 'GREAT PROFILE', enter: S.turnStart + 2, out: at('right'), pos: '50% 18%' };
   const light = pop(f, at('Good'), fps);
   const bio = pop(f, at('bio'), fps);
   const match = at('right') + 6;
