@@ -95,7 +95,6 @@ Amostras (HeyGen, espanhol, feminina) em `assets/`:
 
 ## Entregáveis
 - `final/vsl-barritas-16x9.mp4`: com música.
-- `final/vsl-barritas-16x9_no-music.mp4`: sem música.
 - `final/vsl-barritas.es.srt`: legenda.
 - `final/contact-sheet.jpg`: miniaturas do vídeo.
 
@@ -118,5 +117,5 @@ Amostras (HeyGen, espanhol, feminina) em `assets/`:
   - textos de 64 a 260 px;
   - legenda palavra por palavra com a palavra ativa em amarelo;
   - apresentadora em tela cheia com zoom nos momentos de impacto e em tela dividida nas explicações.
-- **Master:** −14 LUFS, com e sem música, e legenda .srt em espanhol.
+- **Master:** −14 LUFS, pico −1,4 dBTP, só a versão com música (pedido do cliente), H.264 1080p de 54 MB, e legenda .srt em espanhol.
 - **Créditos HeyGen:** 60 usados (de 1.138 para 1.078).
