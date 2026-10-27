@@ -1,61 +1,45 @@
 # Barritas Que Venden™ — Mini VSL (≈1 min 55 s) · espanhol LATAM neutro
 
-Status: **roteiro v2 para aprovação** (sem áudio, cenários ou vídeo gerados).
-Fiel à página: números, resultados, depoimentos, entregáveis, bônus e preços como estão publicados. O dono confirmou que tudo é real e que a publicação está autorizada.
+Status: **roteiro v3 (agressivo, foco em renda extra) para aprovação.** Sem áudio, cenários ou vídeo gerados.
+Todos os números, depoimentos, entregáveis e preços vêm da página. O dono confirmou que são reais e que a publicação está autorizada.
 
-## Dados da página usados
-- **Promessa:** +9.500 personas ya están ganando más de US$4,000 al mes desde casa con este método comprobado.
-- **Avaliação:** 4,9/5 · +9.500 personas.
-- **Os 4 passos e a conta:**
-  - Prepara → Calcula → Presenta → Ofrece (por WhatsApp e na sua região).
-  - Ingredientes US$18 + embalagem US$2 → custo de US$1,00 por barrita → preço de US$2,50 → ganho de US$1,50 por barrita.
-- **Sem barreiras:** "No necesitas experiencia, ni máquinas, ni mucho dinero para empezar."
-- **Entregáveis:**
-  - Método Barritas Que Venden™: +30 recetas, costos y precios, mensajes de venta, paso a paso.
-  - Asesor de Negocios IA™: funciona dentro de ChatGPT, 24/7, desde el celular, "hace todo el trabajo por ti".
-- **Bônus:**
-  - Kit de Negocio y Ventas (US$47);
-  - Línea Premium y Fitness (US$37);
-  - Mega-Pack Repostería Rentable (US$27).
-- **Oferta:** de US$57 por US$9.90 (ahorra 80%), pago único sem mensalidades, moeda local, acesso imediato, garantia de 7 dias com reembolso de 100%.
-- **Depoimentos:**
-  - Daniela: "Nunca imaginé llegar a esa cantidad con mis barritas."
-  - Valeria M.: "Ya pasé los 41 mil en ventas con las barritas."
-  - Mariana G.: "Seguí el método y esto fue lo que logré."
-  - Alejandra F.: "Uno de mis primeros grandes resultados vendiendo barras saludables."
-  - Carol Díaz Barrientos: "Aquí se venden muchas."
-- **Aviso da página:** "Los resultados mencionados son de miembros de la comunidad y no representan una garantía de ingresos."
+## Estratégia
+- **Público:** quem quer ganhar dinheiro já, em espanhol, em toda a LATAM.
+- **Tom:** direto, urgente, falando com "tú", com frases curtas e números o tempo todo.
+- **Kishu aplicado:**
+  - o gancho é sobre dinheiro e não cita o produto;
+  - a dor é o salário que não dura;
+  - o plot twist revela que "o negócio são barritas" e mostra a conta;
+  - em seguida vêm a prova (9.500 pessoas e os depoimentos) e a oferta, ancorada no que se ganha com as primeiras barritas.
+- **Âncora de conversão:** US$9.90 é menos do que se ganha com as primeiras 7 barritas (7 × US$1,50 = US$10,50).
 
-## Estrutura (Método Kishu)
-**[BASE 1] Início impactante** (dor) → **[BASE 2] História** (a lancheira do filho) → **[BASE 3] Plot twist + mecanismo + a prova das 9.500 pessoas** → **[BASE 4] Reviews de clientes + oferta**
+| Tempo | Bloco | Narração | Na tela / efeito | Som |
+|---|---|---|---|---|
+| 0:00–0:10 | **Gancho** | *Si mañana te llega una cuenta de 300 dólares… ¿la puedes pagar? Si dudaste un segundo, escucha bien: más de 9.500 personas ya resolvieron ese problema… desde la cocina de su casa.* | Gancho animado «¿LA PUEDES PAGAR?» · Palavra que bate «US$300» · contador +9.500 | impacto + scratch |
+| 0:10–0:27 | **Dor** | *Porque el sueldo no alcanza. Trabajas todo el mes y el día 20 ya estás contando monedas. Pides prestado, haces turnos extra, pruebas negocios que te piden mil dólares para empezar… y terminas igual o peor. El problema no eres tú. Es que nadie te dio un negocio que funcione con poco dinero.* | Lista riscada (Pedir prestado / Turnos extra / Negocio de US$1.000) · Zoom no rosto em "El problema no eres tú" | riscos, grave |
+| 0:27–0:58 | **Plot twist + a conta** | *Ese negocio son las barritas saludables. Sí, barritas. Algo que la gente compra todos los días. Mira la cuenta: 18 dólares de ingredientes y 2 de empaque. Cada barrita te cuesta 1 dólar… y la vendes a 2,50. Son 1,50 de ganancia por cada una. Seis para una vecina, doce en el trabajo, veinte en el gimnasio… haz la cuenta. Así es como más de 9.500 personas ya están ganando más de 4.000 dólares al mes desde casa con el Método Barritas Que Venden.* | Carimbo «SÍ, BARRITAS» · cartão de custos ($18 · $2 · $1,00 → $2,50 · **GANAS $1,50**) · Notificação «Quiero 6, porfa», «¿Tienes hoy?», «Pedido: 12» · contador de ganhos subindo | ding, cha-ching, pings |
+| 0:58–1:15 | **Prova** | *No lo digo yo. Lo dicen ellas. Valeria: «Ya pasé los 41 mil en ventas». Daniela: «Nunca imaginé llegar a esa cantidad». Mariana: «Seguí el método y esto fue lo que logré». Carol: «Aquí se venden muchas».* | Prints reais em sequência rápida (Tela verde) · faixa «RESULTADOS REALES» · 4,9/5 ★★★★★ | pop a cada print |
+| 1:15–1:47 | **Oferta** | *Hoy te llevas el método completo: más de 30 recetas que se venden, costos, precios y los mensajes exactos para vender por WhatsApp. Y tu Asesor de Negocios IA, dentro de ChatGPT, hace todo el trabajo por ti: calcula, planifica y escribe tus ventas, 24/7. Más tres bonos, incluida la Línea Premium y Fitness para vender en gimnasios al doble de precio. Todo vale 57 dólares. Hoy pagas 9,90. Una sola vez. Menos de lo que ganas con tus primeras siete barritas.* | Solta o arquivo (Método, Asesor IA, 3 bonos com US$47/US$37/US$27) · ~~US$57~~ → **US$9.90 · AHORRA 80%** · «= 7 barritas» | quedas, cha-ching |
+| 1:47–1:55 | **CTA** | *Y si en 7 días no es para ti, te devolvemos el 100%. Toca el botón ahora. La próxima persona ganando con barritas puedes ser tú.* | CTA pulsando «QUIERO EMPEZAR A GENERAR INGRESOS EXTRA» · «Pago único · Garantía 7 días · Acceso inmediato» | impacto final |
 
-| Tempo | Base | Cena | Narração | Na tela / efeito | Som |
-|---|---|---|---|---|---|
-| 0:00–0:11 | 1 | Cozinha simples à noite; ela abre a geladeira quase vazia | *Mi hijo me preguntó delante de sus amigos: «Mamá, ¿por qué nunca tenemos dinero?». Me quedé callada. Yo trabajaba todo el día… y el día 20 la nevera ya estaba vacía.* | Gancho animado «¿Por qué nunca tenemos dinero?» · Zoom no rosto em "callada" · Palavra que bate «DÍA 20» | geladeira, grave, silêncio |
-| 0:11–0:32 | 2 | Montagem do que ela tentou → domingo fazendo barritas para a lancheira → celular vibra | *Probé de todo: vender por catálogo, turnos extra… y nada alcanzaba. Lo único que nunca faltaba era la lonchera de mi hijo: barritas de avena que yo hacía en casa, porque salían más baratas. Hasta que una mamá de la escuela me escribió: «¿Me haces seis?». Esa semana fueron tres mamás. Después, la profesora.* | Lista riscada (Catálogo / Turnos extra) · Notificação «¿Me haces 6?», «¿Tienes barritas hoy?», «Quiero 6, porfa» | riscos, música entra, pings |
-| 0:32–1:00 | 3 | Virada: luz muda, ela olha para a câmera; o método aparece | *Ahí entendí: no me faltaban oportunidades, me faltaba un método. Y no soy la única: más de 9.500 personas ya están ganando más de 4.000 dólares al mes desde casa con el Método Barritas Que Venden. Son cuatro pasos: preparas, calculas, presentas y ofreces por WhatsApp. Con 18 dólares de ingredientes y 2 de empaque, cada barrita te cuesta 1 dólar… y la vendes a 2,50. Ganas 1,50 por cada una.* | Carimbo «MÉTODO COMPROBADO» · contador +9.500 · selo 4,9/5 ★★★★★ · os 4 passos · cartão de custos ($18 · $2 · $1,00 → $2,50 · Ganas $1,50) | whoosh, ding, cha-ching no "1,50" |
-| 1:00–1:20 | 4 | Prints reais dos depoimentos, um a cada ~3 s | *Daniela: «Nunca imaginé llegar a esa cantidad con mis barritas». Valeria: «Ya pasé los 41 mil en ventas». Mariana: «Seguí el método y esto fue lo que logré». Alejandra: «Uno de mis primeros grandes resultados». Y Carol: «Aquí se venden muchas».* | Tela verde (apresentadora sobre cada print) · faixa «RESULTADOS REALES DE LA COMUNIDAD» | pop a cada print |
-| 1:20–1:55 | 4 | Entregáveis caindo, robô do Asesor IA, preço e botão | *No necesitas experiencia, ni máquinas, ni mucho dinero. Recibes el método completo con más de 30 recetas que se venden, costos, precios y mensajes de venta. Y tu Asesor de Negocios IA, que funciona dentro de ChatGPT, hace todo el trabajo por ti: calcula, planifica y escribe tus mensajes, 24/7. Más tres bonos: el Kit de Negocio y Ventas, la Línea Premium y Fitness y el Mega-Pack Repostería Rentable. Todo eso vale 57 dólares… hoy, solo 9,90. Pago único, en tu moneda local, con 7 días de garantía. Toca el botón y empieza hoy.* | Solta o arquivo (Método, Asesor IA, Bono US$47, Bono US$37, Bono US$27) · ~~US$57~~ → **US$9.90** · «AHORRA 80%» · «Pago único · Garantía de 7 días» · CTA «QUIERO EMPEZAR A GENERAR INGRESOS EXTRA» | quedas + ding, cha-ching, impacto final |
+**Aviso fixo:** a partir de 0:27, no rodapé e em letra pequena, vai o texto da página: *"Los resultados mencionados son de miembros de la comunidad y no representan una garantía de ingresos."*
 
-**Aviso fixo na tela:** do 0:32 até o fim, no rodapé e em letra pequena, vai o texto da própria página: *"Los resultados mencionados son de miembros de la comunidad y no representan una garantía de ingresos."*
+## Narração corrida
 
-## Narração corrida (≈295 palavras, cerca de 1 min 55 s)
+> Si mañana te llega una cuenta de 300 dólares… ¿la puedes pagar? Si dudaste un segundo, escucha bien: más de 9.500 personas ya resolvieron ese problema… desde la cocina de su casa.
+> Porque el sueldo no alcanza. Trabajas todo el mes y el día 20 ya estás contando monedas. Pides prestado, haces turnos extra, pruebas negocios que te piden mil dólares para empezar… y terminas igual o peor. El problema no eres tú. Es que nadie te dio un negocio que funcione con poco dinero.
+> Ese negocio son las barritas saludables. Sí, barritas. Algo que la gente compra todos los días. Mira la cuenta: 18 dólares de ingredientes y 2 de empaque. Cada barrita te cuesta 1 dólar… y la vendes a 2,50. Son 1,50 de ganancia por cada una. Seis para una vecina, doce en el trabajo, veinte en el gimnasio… haz la cuenta. Así es como más de 9.500 personas ya están ganando más de 4.000 dólares al mes desde casa con el Método Barritas Que Venden.
+> No lo digo yo. Lo dicen ellas. Valeria: «Ya pasé los 41 mil en ventas». Daniela: «Nunca imaginé llegar a esa cantidad». Mariana: «Seguí el método y esto fue lo que logré». Carol: «Aquí se venden muchas».
+> Hoy te llevas el método completo: más de 30 recetas que se venden, costos, precios y los mensajes exactos para vender por WhatsApp. Y tu Asesor de Negocios IA, dentro de ChatGPT, hace todo el trabajo por ti: calcula, planifica y escribe tus ventas, 24/7. Más tres bonos, incluida la Línea Premium y Fitness para vender en gimnasios al doble de precio. Todo vale 57 dólares. Hoy pagas 9,90. Una sola vez. Menos de lo que ganas con tus primeras siete barritas.
+> Y si en 7 días no es para ti, te devolvemos el 100%. Toca el botón ahora. La próxima persona ganando con barritas puedes ser tú.
 
-> Mi hijo me preguntó delante de sus amigos: «Mamá, ¿por qué nunca tenemos dinero?». Me quedé callada. Yo trabajaba todo el día… y el día 20 la nevera ya estaba vacía.
-> Probé de todo: vender por catálogo, turnos extra… y nada alcanzaba. Lo único que nunca faltaba era la lonchera de mi hijo: barritas de avena que yo hacía en casa, porque salían más baratas. Hasta que una mamá de la escuela me escribió: «¿Me haces seis?». Esa semana fueron tres mamás. Después, la profesora.
-> Ahí entendí: no me faltaban oportunidades, me faltaba un método. Y no soy la única: más de 9.500 personas ya están ganando más de 4.000 dólares al mes desde casa con el Método Barritas Que Venden. Son cuatro pasos: preparas, calculas, presentas y ofreces por WhatsApp. Con 18 dólares de ingredientes y 2 de empaque, cada barrita te cuesta 1 dólar… y la vendes a 2,50. Ganas 1,50 por cada una.
-> Daniela: «Nunca imaginé llegar a esa cantidad con mis barritas». Valeria: «Ya pasé los 41 mil en ventas». Mariana: «Seguí el método y esto fue lo que logré». Alejandra: «Uno de mis primeros grandes resultados». Y Carol: «Aquí se venden muchas».
-> No necesitas experiencia, ni máquinas, ni mucho dinero. Recibes el método completo con más de 30 recetas que se venden, costos, precios y mensajes de venta. Y tu Asesor de Negocios IA, que funciona dentro de ChatGPT, hace todo el trabajo por ti: calcula, planifica y escribe tus mensajes, 24/7. Más tres bonos: el Kit de Negocio y Ventas, la Línea Premium y Fitness y el Mega-Pack Repostería Rentable. Todo eso vale 57 dólares… hoy, solo 9,90. Pago único, en tu moneda local, con 7 días de garantía. Toca el botón y empieza hoy.
-
-**Plot twist:** ela achava que faltava oportunidade, mas faltava só um método. E esse método já funciona para mais de 9.500 pessoas.
-
-## Aberturas alternativas (teste A/B, substituem só a Base 1)
-- **Medo:** *«Si mañana me despiden… ¿cuántos días aguanta mi familia?» Hice la cuenta en un papel. Eran 11.*
-- **Curiosidad:** *Mi vecina no tiene local, ni máquinas, ni empleados. Pero todos los viernes hay una fila en su puerta. Fui a ver qué vendía.*
-- **Absurdo leve:** *Un martes a las 7 de la mañana, la policía tocó mi puerta. Los vecinos se habían quejado… de la fila que había en mi casa.*
+## Ganchos alternativos (teste A/B, substituem os primeiros 10 s)
+- *Tu sueldo se acaba el día 20. El de 9.500 personas ya no. ¿Sabes qué hacen distinto? Cocinan.*
+- *Con 20 dólares puedes empezar un negocio que paga más que tu trabajo. No es broma, y no necesitas experiencia.*
+- *Cada vez que alguien compra una barrita en la tienda, otra persona en su casa gana 1,50 dólares. Esa persona puedes ser tú.*
 
 ## Observações
-- **Idioma:** espanhol latino neutro, com "dinero" em vez de "plata" ou "lana" e "celular". A voz deve ser feminina, calorosa e próxima.
-- **A mãe da história:** não está na página. Se não for uma cliente real, leva o selo «Dramatización» no canto durante as Bases 1 e 2.
-- **Prints dos depoimentos:** borrar telefones, sobrenomes e dados de terceiros que aparecem nos prints, como as conversas de WhatsApp.
-- **Cortes para anúncio no Meta:** a frase "ganando más de US$4,000 al mes" e o nome ChatGPT podem ser reprovados no anúncio, mesmo sendo reais. Na VSL da página eles ficam. Nos cortes curtos para anúncio, prepararei uma versão alternativa.
+- **Voz:** feminina, latina neutra, firme e com energia, no tom de quem está te contando um segredo que dá dinheiro. Ritmo de 150–160 palavras por minuto.
+- **Prints:** borrar telefones e dados de terceiros.
+- **Cortes para anúncio no Meta:** "US$4,000 al mes" e "ChatGPT" costumam ser reprovados em anúncio. Na VSL da página ficam. Os cortes para anúncio terão uma versão alternativa.
+- **Moeda dos "41 mil":** se não for dólar, a tela mostra o depoimento com a moeda original do print, para não parecer dólar.
