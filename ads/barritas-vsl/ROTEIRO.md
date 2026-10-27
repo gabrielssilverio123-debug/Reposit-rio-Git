@@ -9,7 +9,7 @@ Status: **roteiro v4 para aprovação.** Ainda não foram gerados áudio, cenár
 - **Sem conteúdo de terceiros:** nem fotos de blogs nem o Reel de receita. As cenas de barritas são geradas por IA.
 - **Mantido da v3:** o tom agressivo, o gancho, a dor, a âncora "9,90 = 7 barritas" e o CTA.
 
-## Narração (≈280 palavras, cerca de 1 min 50 s a 155–160 palavras/min)
+## Narração (≈298 palavras, cerca de 1 min 52 s a 160 palavras/min)
 
 | Tempo | Bloco | Narração |
 |---|---|---|
