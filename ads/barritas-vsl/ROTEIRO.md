@@ -23,7 +23,7 @@ Status: **roteiro para aprovação** (sem áudio, cenários ou vídeo gerados).
 | 1:13–1:30 | 4 | Prints reais dos depoimentos | *Eso es lo que enseña Barritas Que Venden. Y no lo digo solo yo: Valeria ya pasó los 41 mil en ventas. Mariana siguió el método paso a paso. Y Carol dice que en su zona se venden muchísimas.* | Tela verde (apresentadora sobre cada print) + selo «Resultados individuales» | pop a cada print |
 | 1:30–1:52 | 4 | Entregáveis caindo na tela, preço, botão | *Recibes el método con más de 30 recetas, los mensajes listos para vender y un Asesor IA que calcula tus costos y te ayuda a responder a tus clientes las 24 horas. Más tres bonos. Todo por un solo pago de 9,90 dólares, con 7 días de garantía. Toca el botón de abajo y prepara tu primera tanda este fin de semana.* | Solta o arquivo (Método, Asesor IA, 3 bonos), preço ~~US$57~~ → US$9.90, CTA pulsando | queda + ding, cha-ching, impacto final |
 
-**Narração corrida (≈290 palavras, cerca de 1 min 50 s a 155 palavras/min):**
+**Narração corrida (≈275 palavras, cerca de 1 min 47 s a 155 palavras/min):**
 
 > Mi hijo me preguntó delante de sus amigos: «Mamá, ¿por qué nunca tenemos plata?». Me quedé callada. Yo trabajaba todo el día… y el día 20 la nevera ya estaba vacía.
 > Probé de todo. Vender por catálogo. Turnos extra. Hasta un curso de inversiones que solo me hizo perder lo poco que tenía.
