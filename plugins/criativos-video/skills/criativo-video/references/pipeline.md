@@ -22,11 +22,18 @@ Still: `npx remotion still src/index.ts Ad out/s.png --frame=N`
 `python3 scripts/tighten.py --audio assets/vo_raw.mp3 --words assets/words.json --out public/vo.wav --words-out public/words.json [--target 27.5]`
 Mantém a voz natural (sem acelerar, salvo se `--target` exigir), deixa ~0.17 s entre palavras e ~0.30 s entre frases.
 
+### Vídeo gravado (pessoa real)
+- Repetições: `python3 scripts/takes.py --video bruto.mp4 --words transcricao.json --script roteiro.txt --out assets/takes.mp4 --words-out assets/takes_words.json` (transcrição com tempos por palavra: ElevenLabs `creative_transcribe_audio`).
+- Pausas: `python3 scripts/tighten.py --audio assets/takes.mp4 --words assets/takes_words.json --out public/vo.wav --words-out public/words.json --video assets/takes.mp4 --video-out public/presenter.mp4`.
+- Fundo verde: `bash scripts/chroma.sh bruto.mp4 public/recorte.webm` → componente `TelaVerde`.
+
 ## 3. Avatar UGC com lip-sync (HeyGen)
 1. `create_prompt_avatar` (9:16, descrição detalhada; inclua "no on-screen interface, no recording indicator, no text").
 2. Upload do áudio editado: `create_asset_upload` → `PUT` no `upload_url` (headers `content-type` e `x-amz-server-side-encryption: AES256`) → `complete_asset_upload`.
 3. `create_video_from_avatar` (audioAssetId, 9:16, 1080p, fit cover, expressiveness high, motionPrompt com gestos por trecho).
-4. Poll `get_video` (2–4 min). Confira se veio interface "gravada" no rodapé; se sim, recorte (scale com transformOrigin no topo).
+4. Poll `get_video` (2–4 min). Confira se veio interface "gravada" (barra de status do iPhone, "REC", barra de início, player); se sim, recorte antes de editar: `ffmpeg -i in.mp4 -vf "crop=950:1690:65:150,scale=1080:1920,fps=30" -an public/presenter.mp4` (ajuste o crop ao que aparecer).
+5. Para **Tela verde**, peça `outputFormat: "webm"` (fundo transparente).
+6. Casal/duas pessoas com rostos consistentes: gere cada personagem com `create_prompt_avatar` e depois a cena juntos passando as duas imagens em `referenceImages`.
 
 ## 4. Imagens e clipes
 - Personagens/cenas: HeyGen `create_prompt_avatar` (gera foto fotorrealista a partir de texto, baixo custo), ElevenLabs `creative_generate_image` (Seedream/Nano Banana; estime antes), Higgsfield se houver créditos.

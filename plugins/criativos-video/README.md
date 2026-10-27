@@ -10,11 +10,13 @@ versões com e sem música → entrega.
 - `skills/criativo-video/`: o método completo
   - `SKILL.md`: fluxo e regras;
   - `references/angulos.md`: 8 ângulos/formatos (inclui VSL) com estruturas e ganchos para vários nichos;
+  - `references/vsl-kishu.md`: Método Kishu, a base de toda VSL (início impactante → história → plot twist com mecanismo → oferta irresistível);
+  - `references/efeitos.md`: catálogo dos 15 efeitos de edição (gancho animado, palavra que bate, legenda gigante, barra de comando, melhor tomada, lista riscada, solta o arquivo, corta as pausas, carimbo, antes e depois, tela verde, zoom no rosto, tela dividida, notificação, pede comentário);
   - `references/compliance.md`: regras do Meta por categoria (saúde, finanças, cripto, namoro, educação…);
   - `references/pipeline.md`: passo a passo técnico (HeyGen, ElevenLabs, Remotion, ffmpeg);
   - `references/brand-10x-match.md`: exemplo de ficha de marca (copie para cada produto novo);
-  - `scripts/`: `tighten.py` (pausas da narração), `master.sh` (loudness), `srt.py` (legendas);
-  - `templates/remotion/`: 3 modelos testados (POV/reação, Curiosidade/segredo, Transformação).
+  - `scripts/`: `tighten.py` (corta as pausas — áudio e vídeo), `takes.py` (melhor tomada), `chroma.sh` (tela verde), `master.sh` (loudness), `srt.py` (legendas);
+  - `templates/remotion/`: 3 modelos testados (POV/reação, Curiosidade/segredo, Transformação) + `Efeitos.tsx` (biblioteca dos efeitos, com a composição `EfeitosDemo` para visualizar todos).
 
 ## Instalação
 **Opção A: em um projeto (recomendado)**

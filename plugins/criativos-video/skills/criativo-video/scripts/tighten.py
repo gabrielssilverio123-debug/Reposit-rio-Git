@@ -3,12 +3,15 @@
 
 Usage:
   tighten.py --audio vo_raw.mp3 --words words.json --out public/vo.wav \
-             --words-out public/words.json [--target 27.5] [--short 0.17] [--long 0.30]
+             --words-out public/words.json [--target 27.5] [--short 0.17] [--long 0.30] \
+             [--video raw.mp4 --video-out public/presenter.mp4]
 
 words.json: [{"word": "...", "start": 0.12, "end": 0.40}, ...] (timestamps of the raw audio).
 Silences are detected with ffmpeg (-40 dBFS, >= 0.16 s). Each silence keeps `--short`
 seconds (or `--long` when the original pause was longer than 0.4 s). If the result is
 still longer than --target, it is sped up with atempo (pitch preserved).
+With --video (footage whose audio is --audio, e.g. the same .mp4 twice), the same cuts are
+applied to the picture and --video-out gets the cut video with the cut audio ("Corta as pausas").
 """
 import argparse
 import json
@@ -41,6 +44,8 @@ def main():
     ap.add_argument('--short', type=float, default=0.17)
     ap.add_argument('--long', type=float, default=0.30)
     ap.add_argument('--delay', type=float, default=0.0, help='seconds of silence before the voice')
+    ap.add_argument('--video', help='footage to cut with the same segments (its audio is --audio)')
+    ap.add_argument('--video-out', help='output for the cut footage (requires --video)')
     a = ap.parse_args()
 
     total_dur = duration(a.audio)
@@ -90,6 +95,18 @@ def main():
     fc = ';'.join(parts) + ';' + ''.join(labels) + chain + ',apad=pad_dur=0.3[o]'
     subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', a.audio, '-filter_complex', fc,
                     '-map', '[o]', '-ar', '48000', '-ac', '1', a.out], check=True)
+    if a.video and a.video_out:
+        vparts, vlabels = [], []
+        for i, (s, e) in enumerate(keep):
+            vparts.append(f'[0:v]trim={s:.4f}:{e:.4f},setpts=PTS-STARTPTS[v{i}]')
+            vlabels.append(f'[v{i}]')
+        vfc = ';'.join(vparts) + ';' + ''.join(vlabels) + f'concat=n={len(keep)}:v=1:a=0,setpts=PTS/{tempo:.4f}'
+        if a.delay:
+            vfc += f',tpad=start_duration={a.delay}:start_mode=clone'
+        subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', a.video, '-i', a.out, '-filter_complex', vfc + '[v]',
+                        '-map', '[v]', '-map', '1:a', '-c:v', 'libx264', '-crf', '17', '-preset', 'medium',
+                        '-c:a', 'aac', '-b:a', '256k', '-shortest', a.video_out], check=True)
+        print(f'cut footage -> {a.video_out}')
     print(f'speech {length:.2f}s -> {length / tempo:.2f}s (tempo {tempo:.3f}); wrote {a.out} and {a.words_out}')
 
 

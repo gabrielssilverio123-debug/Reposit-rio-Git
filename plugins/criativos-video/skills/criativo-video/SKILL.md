@@ -27,18 +27,22 @@ Fale com a pessoa no idioma dela. O texto **dentro** do vídeo segue o idioma do
 ### 2. Ângulo e formato
 Escolha em `references/angulos.md` (antes/depois, curiosidade/segredo, POV dela, POV dele, inimigo comum, VSL longa). Para testes A/B, varie **o ângulo**, não só a cor.
 
+**VSL:** toda VSL segue o **Método Kishu** (`references/vsl-kishu.md`) — início impactante fora do enredo do produto (dor, medo, curiosidade, absurdo ou emocionante) → desenvolvimento da história entrando no subnicho sem o lead perceber → plot twist com o mecanismo único → oferta irresistível sem forçar. O roteiro mostra as 4 bases marcadas. Nos criativos curtos, use o Kishu só quando ajudar (ex.: abrir com um pilar de início impactante).
+
 ### 3. Roteiro
 - 30 s ≈ 80–90 palavras faladas; 5 s ≈ 10–12; VSL: ~150 palavras/min.
+- Na tabela do roteiro, inclua a coluna **Efeito** (nome do efeito do catálogo usado em cada cena).
 - Gancho em 0–3 s (texto na tela + fala + impacto sonoro). Quebre 1–2 objeções do FAQ. Prova. Oferta com âncora de preço e garantia. CTA "Tap below…".
-- Entregue tabela Tempo · Cena · Narração · Som + texto corrido + 2–3 ganchos alternativos.
+- Entregue tabela Tempo · Cena · Efeito · Narração · Som + texto corrido + 2–3 ganchos alternativos (VSL: blocos [BASE 1]–[BASE 4] do Kishu).
 
 ### 4. Produção (ver `references/pipeline.md`)
 1. Narração (HeyGen `create_speech_without_player` ou ElevenLabs) com timestamps por palavra.
-2. `scripts/tighten.py` encurta pausas e remapeia os tempos das palavras.
+2. `scripts/tighten.py` encurta pausas e remapeia os tempos das palavras ("Corta as pausas"; com `--video` corta também o vídeo gravado). Vídeo gravado com repetições: `scripts/takes.py` ("Melhor tomada") antes do tighten.
 3. Avatar UGC (HeyGen `create_prompt_avatar` → `create_video_from_avatar` com o áudio editado) ou clipes realistas (image-to-video).
 4. Imagens (perfis, antes/depois, produto) — personagens fictícios gerados por IA.
 5. Música e SFX (biblioteca HeyGen `search_audio_sounds`, Creative Claw ou ElevenLabs).
 6. Montagem: copie `templates/remotion/` para `ads/<nome>/`, escolha o template mais próximo e adapte textos, imagens e âncoras de palavras (`at('palavra', n)`).
+   **Efeitos obrigatórios no repertório** (`references/efeitos.md`, componentes em `src/Efeitos.tsx`): gancho animado, palavra que bate, legenda gigante, barra de comando, melhor tomada, lista riscada, solta o arquivo, corta as pausas, carimbo, antes e depois, tela verde, zoom no rosto, tela dividida, notificação e pede comentário. Em criativo curto, use vários (um a cada 1,5–4 s, sempre com som); na VSL, quando servirem à história. Diga no roteiro quais efeitos entram em cada cena.
 7. Stills nos momentos-chave → corrigir sobreposições → render.
 8. `scripts/master.sh` (−14 LUFS, pico ≤ −1 dBTP, `+faststart`) com e sem música; `scripts/srt.py` gera a legenda .srt.
 
