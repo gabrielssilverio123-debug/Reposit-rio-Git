@@ -1,6 +1,6 @@
 # Barritas Que Venden™ — VSL 16:9 (≈1 min 50 s) · espanhol LATAM neutro
 
-Status: **roteiro v4 para aprovação.** Ainda não foram gerados áudio, cenários nem vídeo.
+Status: **produzido** (v4 aprovado, voz Lively Laura Excited). Entregáveis em `final/`.
 
 ## O que mudou da v3 para a v4
 - **Sem prints de renda que não comprovam venda de barritas.** Os prints da Mariana e da Valeria e o vídeo de ganhos do TikTok ficaram de fora (ver *Provas* abaixo).
@@ -98,3 +98,25 @@ Amostras (HeyGen, espanhol, feminina) em `assets/`:
 - `final/vsl-barritas-16x9_no-music.mp4`: sem música.
 - `final/vsl-barritas.es.srt`: legenda.
 - `final/contact-sheet.jpg`: miniaturas do vídeo.
+
+## Produção realizada
+- **Narração:**
+  - HeyGen, voz "Lively Laura – Excited" (`3051d032da91455da31146a60a0d7dd5`), velocidade 1,08;
+  - pausas cortadas com `tighten.py` (0,12 s / 0,24 s), de 120,8 s para 113 s.
+- **Apresentadora:**
+  - look criado por IA a partir da foto de rosto enviada (cozinha, avental verde-oliva);
+  - vídeo com sincronia labial (Avatar IV, expressividade alta, 1080p, 16:9).
+- **Cenas:**
+  - 10 imagens geradas por IA;
+  - 3 clipes animados de 5 s (mistura, embalagem e entrega) com `image_to_video` em 1080p.
+- **Imagens oficiais extraídas da página:** capa do método, robô do Asesor IA e as 3 capas dos bônus.
+- **Trilha:**
+  - biblioteca HeyGen, "Latin urban chill-hop" (0–58 s) emendada com "electro-cumbia / Latin pop" (58–115 s);
+  - efeitos: whoosh em cada corte, hits, pops, caixa registradora, digitação e risco de caneta.
+- **Montagem:** Remotion 1920×1080 (`src/Vsl.tsx`):
+  - um corte ou efeito a cada 1,5–3 s;
+  - textos de 64 a 260 px;
+  - legenda palavra por palavra com a palavra ativa em amarelo;
+  - apresentadora em tela cheia com zoom nos momentos de impacto e em tela dividida nas explicações.
+- **Master:** −14 LUFS, com e sem música, e legenda .srt em espanhol.
+- **Créditos HeyGen:** 60 usados (de 1.138 para 1.078).

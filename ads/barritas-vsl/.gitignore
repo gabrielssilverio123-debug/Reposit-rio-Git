@@ -1,3 +1,5 @@
 node_modules
 out/
 assets/
+# >100 MB (GitHub limit); regenerate from assets/pres_raw.mp4 or HeyGen video 136694b97a6590742cb3e9fe0b040a2d
+public/pres.mp4
