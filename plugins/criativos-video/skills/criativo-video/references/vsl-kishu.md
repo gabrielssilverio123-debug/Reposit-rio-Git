@@ -31,11 +31,12 @@ Um loop aberto que o cérebro precisa fechar.
 
 ### Absurdo
 Uma cena tão inesperada que é impossível não continuar assistindo — e que, no plot twist, se conecta ao produto.
-- **Exemplos de gatilho:** prisão, advogado, sexo sujo, amnésia, amputação.
+**Sempre em versão leve** (VSL e anúncio): surpresa e humor, nunca choque. Nada de conteúdo sexual, violência, mutilação ou doença grave.
+- **Exemplos de gatilho (leves):** algemas/prisão por engano, ligação do advogado, amnésia, situação constrangedora em público, mal-entendido.
 - **Emagrecimento:** "Eu fui algemado dentro de um avião." (era o cinto de segurança que não fechava — o ponto de virada da vida dele).
 - **Relacionamento / namoro:** "Meu advogado me ligou por causa de um perfil de aplicativo." (um amigo achou que era golpe: o perfil era tão ruim que parecia falso).
 - **Finanças:** "Acordei sem lembrar de nada — e com R$ 40 mil de dívida." (a "amnésia" é o automático de quem não olha o extrato).
-- **Cuidado:** o absurdo precisa ter conexão real com a história; se for encenação, não o apresente como fato. Em anúncio no Meta, nada de conteúdo sexual explícito, violência gráfica ou choque gratuito — use o absurdo na VSL da página e uma versão leve no anúncio.
+- **Cuidado:** o absurdo precisa ter conexão real com a história; se for encenação, não o apresente como fato.
 
 ### Emocionante
 Uma cena que emociona (alegria, superação, saudade) e cria vínculo antes de qualquer argumento.
