@@ -22,8 +22,6 @@ Todos os números, depoimentos, entregáveis e preços vêm da página. O dono c
 | 1:15–1:47 | **Oferta** | *Hoy te llevas el método completo: más de 30 recetas que se venden, costos, precios y los mensajes exactos para vender por WhatsApp. Y tu Asesor de Negocios IA, dentro de ChatGPT, hace todo el trabajo por ti: calcula, planifica y escribe tus ventas, 24/7. Más tres bonos, incluida la Línea Premium y Fitness para vender en gimnasios al doble de precio. Todo vale 57 dólares. Hoy pagas 9,90. Una sola vez. Menos de lo que ganas con tus primeras siete barritas.* | Solta o arquivo (Método, Asesor IA, 3 bonos com US$47/US$37/US$27) · ~~US$57~~ → **US$9.90 · AHORRA 80%** · «= 7 barritas» | quedas, cha-ching |
 | 1:47–1:55 | **CTA** | *Y si en 7 días no es para ti, te devolvemos el 100%. Toca el botón ahora. La próxima persona ganando con barritas puedes ser tú.* | CTA pulsando «QUIERO EMPEZAR A GENERAR INGRESOS EXTRA» · «Pago único · Garantía 7 días · Acceso inmediato» | impacto final |
 
-**Aviso fixo:** a partir de 0:27, no rodapé e em letra pequena, vai o texto da página: *"Los resultados mencionados son de miembros de la comunidad y no representan una garantía de ingresos."*
-
 ## Narração corrida
 
 > Si mañana te llega una cuenta de 300 dólares… ¿la puedes pagar? Si dudaste un segundo, escucha bien: más de 9.500 personas ya resolvieron ese problema… desde la cocina de su casa.
