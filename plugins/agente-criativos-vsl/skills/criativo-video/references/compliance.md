@@ -29,3 +29,12 @@ Leia antes de escrever o roteiro. Na dúvida, escolha a versão mais segura e di
 - [ ] Encenação marcada; depoimentos reais com autorização.
 - [ ] Sem marcas/UI de terceiros; rostos de terceiros desfocados.
 - [ ] Texto principal e título do anúncio coerentes com a página (sem promessa maior que a página).
+
+## Provas enviadas pelo cliente (checar sempre)
+- **Comprovantes e painéis precisam mostrar venda do produto anunciado.** Desconfie quando:
+  - o conceito da transferência for outro;
+  - for um painel de outra plataforma (ganhos de criador, Shopify sem relação com o produto);
+  - os números não fecharem (visitantes × conversão ≠ pedidos; ticket médio incompatível com o preço);
+  - houver sinais de montagem (texto torto, comprovante colado dentro da conversa).
+- **Fotos e vídeos com marca d'água, ou baixados de blogs, Pinterest ou criadores**, não podem ser usados.
+- **O que não se sustenta fica fora.** A VSL usa demonstração, a conta do método, a garantia e números comprováveis (ex.: "+9.500 personas ya empezaron").

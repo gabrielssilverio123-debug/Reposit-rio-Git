@@ -1,12 +1,12 @@
-# Plugin "criativos-video" para Claude Code
+# Agente de Criação de Criativos e VSL (plugin para Claude Code)
 
 Agente para criar **criativos em vídeo e VSLs para qualquer nicho** (Meta Ads, TikTok, Reels):
 briefing a partir da landing page → ângulo → roteiro com aprovação → narração → avatar UGC com lip-sync →
 imagens e clipes → música e efeitos → montagem com motion em Remotion → legendas → master −14 LUFS →
-versões com e sem música → entrega.
+versões com e sem música → entrega. VSLs pelo Método Kishu, em 9:16 ou 16:9.
 
 ## O que vem dentro
-- `agents/video-creative-director.md`: o agente (subagente) "diretor de criativos".
+- `agents/agente-criativos-vsl.md`: o **Agente de Criação de Criativos e VSL** (subagente).
 - `skills/criativo-video/`: o método completo
   - `SKILL.md`: fluxo e regras;
   - `references/angulos.md`: 8 ângulos/formatos (inclui VSL) com estruturas e ganchos para vários nichos;
@@ -16,15 +16,15 @@ versões com e sem música → entrega.
   - `references/pipeline.md`: passo a passo técnico (HeyGen, ElevenLabs, Remotion, ffmpeg);
   - `references/brand-10x-match.md`: exemplo de ficha de marca (copie para cada produto novo);
   - `scripts/`: `tighten.py` (corta as pausas — áudio e vídeo), `takes.py` (melhor tomada), `chroma.sh` (tela verde), `master.sh` (loudness), `srt.py` (legendas);
-  - `templates/remotion/`: 3 modelos testados (POV/reação, Curiosidade/segredo, Transformação) + `Efeitos.tsx` (biblioteca dos efeitos, com a composição `EfeitosDemo` para visualizar todos).
+  - `templates/remotion/`: 4 modelos testados (POV/reação, Curiosidade/segredo, Transformação e VSL 16:9) + `Efeitos.tsx` (biblioteca dos efeitos, com a composição `EfeitosDemo` para visualizar todos).
 
 ## Instalação
 **Opção A: em um projeto (recomendado)**
-1. Descompacte o zip na raiz do projeto, de forma que fique `plugins/criativos-video/`.
+1. Descompacte o zip na raiz do projeto, de forma que fique `plugins/agente-criativos-vsl/`.
 2. Copie (ou crie links) para a pasta `.claude` do projeto:
-   - `plugins/criativos-video/skills/criativo-video` → `.claude/skills/criativo-video`
-   - `plugins/criativos-video/agents/video-creative-director.md` → `.claude/agents/video-creative-director.md`
-3. Abra o Claude Code no projeto. A skill aparece como `/criativo-video` e o agente como `video-creative-director`.
+   - `plugins/agente-criativos-vsl/skills/criativo-video` → `.claude/skills/criativo-video`
+   - `plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md` → `.claude/agents/agente-criativos-vsl.md`
+3. Abra o Claude Code no projeto. A skill aparece como `/criativo-video` e o agente como `agente-criativos-vsl`.
 
 **Opção B: para todos os seus projetos**
 Copie as mesmas pastas para `~/.claude/skills/` e `~/.claude/agents/`.
@@ -33,7 +33,7 @@ Copie as mesmas pastas para `~/.claude/skills/` e `~/.claude/agents/`.
 Esta pasta já segue o formato de plugin (`.claude-plugin/plugin.json`). Publique-a em um repositório de marketplace e instale com `/plugin`.
 
 ## Como usar
-- "Use o video-creative-director para criar um anúncio de 30 s para esta landing page: <link ou HTML>."
+- "Use o agente-criativos-vsl para criar um anúncio de 30 s para esta landing page: <link ou HTML>."
 - "/criativo-video VSL de 3 minutos para meu curso de inglês, público iniciante, voz feminina."
 - "Crie 3 variações de gancho para o criativo X para teste A/B."
 

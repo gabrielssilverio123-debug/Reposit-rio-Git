@@ -60,3 +60,22 @@ Contact sheet: `ffmpeg -i final/<nome>.mp4 -vf "fps=0.6,scale=180:320,tile=9x2" 
 
 ## 8. Entrega
 `ROTEIRO.md` · commit/push de `ads/<nome>/` (sem `node_modules`, `out/`, `assets/`) · `SendUserFile` com os MP4 (`display: attach`) e o contact sheet (`display: render`).
+
+## 9. VSL em 16:9 (aprendizados da produção "Barritas Que Venden")
+- **Modelo:** `templates/remotion/src/TemplateVSL16x9.tsx` (composição `Vsl`, 1920×1080, `durationInFrames` = segundos × 30).
+- **Apresentadora a partir da foto da persona:**
+  1. Suba a foto com `create_asset_upload` → PUT → `complete_asset_upload`.
+  2. Gere o look com `create_prompt_avatar` (`referenceImages: [{type:"asset_id", asset_id}]`, `aspectRatio:"16:9"`), descrevendo cenário e figurino.
+  3. Gere o vídeo com `create_video_from_avatar` com o áudio já editado (`aspectRatio:"16:9"`, `expressiveness:"high"`, `motionPrompt` por trecho).
+- **Um único vídeo da apresentadora** reenquadrado por cena: tela cheia com zoom nas frases de impacto, metade direita nas explicações. Isso mantém a sincronia labial perfeita.
+- **Imagens pela ponte do ElevenLabs** (`preview_url`) chegam com 1024 px. Use-as como cartões de cerca de 50% da largura ou com zoom lento. Para tela cheia nítida, prefira vídeo: `image_to_video` a 1080p, 5 s (passe a URL do HeyGen; ele mesmo baixa). O vídeo sai em resolução cheia pela composição gratuita.
+- **Efeitos sonoros da biblioteca HeyGen:** `search_audio_sounds` com `type:"sound_effects"` e `minScore: 0.4`. As buscas com o score padrão costumam voltar vazias.
+- **Música para mais de 60 s:** junte duas trilhas com `acrossfade`, uma mais calma na dor e uma mais animada a partir da virada.
+- **Render longo:** cerca de 1 min de render para cada 10 s de vídeo em 1080p. Rode em segundo plano com `timeout` de 30 min ou mais.
+- **Limite do GitHub (100 MB):**
+  - o vídeo final passa por `master.sh` e depois por `ffmpeg -c:v libx264 -crf 22 -preset slow -c:a copy -movflags +faststart`, ficando com cerca de 50 MB para 2 min;
+  - arquivos de entrada acima de 100 MB (como o vídeo bruto da apresentadora) ficam no `.gitignore`, com a origem anotada.
+- **Legibilidade no celular:**
+  - texto principal de 64–260 px;
+  - nada abaixo de 40 px em balões de chat;
+  - evite `WebkitTextStroke` (gera falhas nas letras); use `textShadow`.
