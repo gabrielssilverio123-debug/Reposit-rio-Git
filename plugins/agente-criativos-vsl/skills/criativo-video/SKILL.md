@@ -19,6 +19,8 @@ Fale com a pessoa no idioma dela. O texto **dentro** do vídeo segue o idioma do
 
 ## Fluxo
 
+**Comece pelo fluxo guiado** (`references/fluxo-guiado.md`): boas-vindas, perguntas de múltipla escolha (o que criar, formato, duração, idioma, página, nicho, público, provas), análise da página com escolha de ângulo, roteiro com escolha de rosto, voz e música, produção com checkpoints e ajustes com opções. As seções abaixo detalham cada etapa.
+
 ### 1. Briefing
 - Leia a landing page (HTML enviado ou URL). Se o HTML for um bundle que exige JS, renderize com Playwright/Chromium e extraia `document.body.innerText` + screenshots.
 - Extraia: produto, preço/âncora, garantia, promessa, mecanismo único, módulos/entregáveis, provas, FAQ (objeções), público, paleta e fontes.
