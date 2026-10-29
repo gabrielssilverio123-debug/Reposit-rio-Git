@@ -79,3 +79,12 @@ Contact sheet: `ffmpeg -i final/<nome>.mp4 -vf "fps=0.6,scale=180:320,tile=9x2" 
   - texto principal de 64–260 px;
   - nada abaixo de 40 px em balões de chat;
   - evite `WebkitTextStroke` (gera falhas nas letras); use `textShadow`.
+
+## 10. VSL longa (10–20 min)
+- **Narração:** gere por bloco do Kishu (4–8 trechos de até ~3 min), com uma chamada por trecho, e junte com `concat`. Isso facilita refazer só um bloco.
+- **Apresentadora:** um vídeo com sincronia labial por bloco (mesmo look). Na montagem, cada bloco é um `<Sequence>` com o seu vídeo.
+- **Render por blocos:**
+  - renderize cada bloco com `--frames=início-fim`, em segundo plano com `timeout` máximo, e una com `ffmpeg -f concat`;
+  - conte com ~1 min de render a cada 10 s de vídeo, ou seja, ~2 h para 20 min.
+- **Master:** master e compressão no arquivo unido. Para 20 min, use `-crf 24`. Se passar de 100 MB, entregue pelo chat e deixe o arquivo fora do git, anotando no ROTEIRO.md.
+- **Cortes de anúncio:** gere 3–5 cortes de 15–30 s (9:16) da Base 1 e da Base 3.

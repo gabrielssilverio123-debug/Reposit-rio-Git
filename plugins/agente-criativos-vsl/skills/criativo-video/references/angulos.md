@@ -40,9 +40,9 @@ Cada ângulo abaixo traz: quando usar · estrutura · exemplos de gancho em vár
 - **Estrutura**: "3 mistakes killing your ___" → erro 1, 2, 3 (cada um 4–5 s, com ✕) → a correção → oferta.
 - Excelente para público frio e para quebrar objeções.
 
-## 8. VSL (Video Sales Letter) — 1 a 10 min
+## 8. VSL (Video Sales Letter): 2 a 20 min
 **Toda VSL é construída pelo Método Kishu — leia `vsl-kishu.md` primeiro.** As 4 bases dele (início impactante → desenvolvimento da história → plot twist com mecanismo → oferta irresistível) mandam na estrutura; a lista abaixo serve só como checklist de elementos que precisam aparecer dentro dessas bases.
-Elementos (ajuste o tempo ao preço: ticket baixo 1–3 min; médio 5–8; alto 10+):
+Elementos (ajuste o tempo ao preço: ticket baixo 2–5 min; médio 5–10; alto ou lançamento 10–20):
 1. **Gancho (0–15 s)**: promessa específica + curiosidade + para quem é.
 2. **Identificação da dor**: cenas da vida do público, linguagem dele.
 3. **Agitação**: custo de continuar assim; o que já tentou e falhou (inimigo comum).

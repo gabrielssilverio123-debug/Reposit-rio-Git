@@ -74,12 +74,20 @@ Como em nenhum momento mencionamos o produto ou apontamos a dor do lead, **o plo
 ---
 
 ## Estrutura de tempo sugerida
-| Bloco | VSL curta (2–3 min) | VSL média (5–8 min) |
-|---|---|---|
-| Base 1 — Início impactante | 0–15 s | 0–30 s |
-| Base 2 — Desenvolvimento | 15 s–1 min 15 | 30 s–4 min |
-| Base 3 — Plot twist + mecanismo | 1 min 15–1 min 50 | 4–5 min 30 |
-| Base 4 — Oferta | 1 min 50–3 min | 5 min 30–8 min |
+| Bloco | Curta (2–5 min) | Média (5–10 min) | Longa (10–20 min) |
+|---|---|---|---|
+| Base 1: início impactante | 0–15 s | 0–30 s | 0–60 s |
+| Base 2: desenvolvimento | 15 s–40% | 30 s–45% | 1 min–50% (2–3 atos, com mini-ganchos a cada 2–3 min) |
+| Base 3: plot twist + mecanismo | 40–60% | 45–65% | 50–65% (mecanismo explicado em camadas, com provas) |
+| Base 4: oferta | 60–100% | 65–100% | 65–100% (entregáveis um a um, bônus, FAQ das objeções, CTA repetido 2–3 vezes) |
+
+**Palavras por duração** (~150 por minuto): 2 min ≈ 300 · 5 min ≈ 750 · 10 min ≈ 1.500 · 20 min ≈ 3.000.
+
+**VSLs longas (10–20 min):**
+- **Retenção:** use um "loop aberto" a cada 2–3 min (*"daqui a pouco eu te mostro…"*).
+- **Visual:** troque de cenário a cada 5–10 s.
+- **Ritmo:** intercale a apresentadora com cenas e telas de prova.
+- **Oferta:** repita o CTA com o botão a partir da Base 4.
 
 ## Como entregar o roteiro de VSL
 1. Pilar escolhido para o início (dor, medo, curiosidade, absurdo ou emocionante) e por quê — com 2 alternativas de abertura.

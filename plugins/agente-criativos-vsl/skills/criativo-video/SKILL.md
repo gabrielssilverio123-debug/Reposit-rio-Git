@@ -1,6 +1,6 @@
 ---
 name: criativo-video
-description: Cria criativos em vídeo (5–60 s) e VSLs (1–10 min) para Meta Ads, TikTok e Reels, para qualquer nicho (infoproduto, saúde, finanças, e-commerce, SaaS, educação, relacionamento, serviços locais…) a partir de uma landing page ou oferta — briefing, escolha de ângulo, roteiro, narração, avatar UGC com lip-sync, imagens, montagem com motion em Remotion, legendas palavra a palavra, música, efeitos sonoros e masterização em −14 LUFS. Use quando pedirem anúncio em vídeo, criativo, VSL, roteiro de anúncio, hook, UGC, POV, antes e depois ou variação de criativo.
+description: Agente Criativo e VSL. Cria criativos em vídeo (5–60 s) e VSLs (2–20 min) para Meta Ads, TikTok e Reels, para qualquer nicho (infoproduto, saúde, finanças, e-commerce, SaaS, educação, relacionamento, serviços locais…) a partir de uma landing page ou oferta — briefing, escolha de ângulo, roteiro, narração, avatar UGC com lip-sync, imagens, montagem com motion em Remotion, legendas palavra a palavra, música, efeitos sonoros e masterização em −14 LUFS. Use quando a pessoa digitar "agente criativo e vsl" ou pedir anúncio em vídeo, criativo, VSL, roteiro de anúncio, hook, UGC, POV, antes e depois ou variação de criativo.
 ---
 
 # Criativos em vídeo e VSL

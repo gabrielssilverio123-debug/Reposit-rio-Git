@@ -7,7 +7,7 @@ versões com e sem música → entrega. VSLs pelo Método Kishu, em 9:16 ou 16:9
 
 ## Comece aqui
 - **Instalação** (repositório limpo, skills, conectores HeyGen/ElevenLabs e alternativas, ambiente, teste): veja **`INSTALACAO.md`**.
-- **Uso:** diga *"Use o agente-criativos-vsl para criar um criativo"* (ou uma VSL). O agente conduz um **fluxo guiado** com perguntas de múltipla escolha: o que criar, formato, duração, idioma, página, nicho, público, ângulo, rosto, voz e música. Depois vêm o roteiro para aprovação, a produção com checkpoints e os ajustes. Diga *"modo rápido"* para usar os padrões recomendados.
+- **Uso:** digite **"agente criativo e vsl"**, sozinho ou com o pedido (ex.: *"agente criativo e vsl, quero uma VSL de 10 min"*). O agente conduz um **fluxo guiado** com perguntas de múltipla escolha: o que criar, formato, duração, idioma, página, nicho, público, ângulo, rosto, voz e música. Depois vêm o roteiro para aprovação, a produção com checkpoints e os ajustes. Diga *"modo rápido"* para usar os padrões recomendados.
 
 ## O que vem dentro
 - `agents/agente-criativos-vsl.md`: o **Agente de Criação de Criativos e VSL** (subagente).
@@ -38,7 +38,9 @@ Copie as mesmas pastas para `~/.claude/skills/` e `~/.claude/agents/`.
 Esta pasta já segue o formato de plugin (`.claude-plugin/plugin.json`). Publique-a em um repositório de marketplace e instale com `/plugin`.
 
 ## Como usar
-- "Use o agente-criativos-vsl para criar um anúncio de 30 s para esta landing page: <link ou HTML>."
+- "agente criativo e vsl"
+- "agente criativo e vsl, criativo de 30 s para esta página: <link>"
+- "agente criativo e vsl, VSL de 15 min em espanhol para este vídeo de referência"
 - "/criativo-video VSL de 3 minutos para meu curso de inglês, público iniciante, voz feminina."
 - "Crie 3 variações de gancho para o criativo X para teste A/B."
 

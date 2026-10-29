@@ -1,7 +1,10 @@
-# Guia de instalação: Agente de Criação de Criativos e VSL
+# Guia de instalação: Agente Criativo e VSL
 
-**Versão do agente:** 1.5 · **Tempo estimado:** 15 minutos
+**Versão do agente:** 1.6 · **Tempo estimado:** 15 minutos
+
 Você instala uma vez por conta (conectores) e uma vez por repositório (agente).
+
+> **Para chamar o agente, digite sempre: `agente criativo e vsl`**
 
 ---
 
@@ -11,7 +14,7 @@ Você instala uma vez por conta (conectores) e uma vez por repositório (agente)
 |---|---|---|
 | **Claude Code na web/app** (claude.ai/code, app desktop ou celular) | ✅ Completo | Recomendado. Já vem com Node, Python, ffmpeg e Chromium. |
 | **Claude Code no terminal** (seu computador) | ✅ Completo | Precisa instalar Node, Python e ffmpeg (passo 6). |
-| **Chat comum do claude.ai** (fora do Claude Code) | ⚠️ Parcial | Só estratégia: roteiros, ângulos, VSL Kishu e textos. Não renderiza vídeo. |
+| **Chat comum do claude.ai** (fora do Claude Code) | ⚠️ Parcial | Só estratégia: roteiros (inclusive VSL de 2–20 min), ângulos, Kishu e textos. Não renderiza vídeo. |
 
 ---
 
@@ -41,16 +44,19 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 ## 3. Instalar o agente no repositório
 
 ### Opção A: enviando o zip no chat (recomendada)
-1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.5.zip` e cole:
-   > Instale este agente no projeto: descompacte em `plugins/`, crie os links `.claude/agents/agente-criativos-vsl.md` e `.claude/skills/criativo-video` apontando para `plugins/agente-criativos-vsl/…`, crie um `.gitignore` com `node_modules`, `out/` e `assets/`, faça commit e push.
-2. Confirme pedindo: *"Quais agentes você tem disponíveis?"*. O `agente-criativos-vsl` deve aparecer. Se não aparecer, abra uma sessão nova no mesmo repositório.
+1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.6.zip` e cole:
+   > Instale este agente no projeto: descompacte em `plugins/`, crie os links `.claude/agents/agente-criativos-vsl.md` e `.claude/skills/criativo-video` apontando para `plugins/agente-criativos-vsl/…`, crie um `.gitignore` com `node_modules`, `out/` e `assets/`, copie o conteúdo de `plugins/agente-criativos-vsl/CLAUDE-snippet.md` para o `CLAUDE.md` da raiz (crie se não existir), faça commit e push.
+2. Abra uma **sessão nova** no mesmo repositório e digite **`agente criativo e vsl`**. Ele deve responder com as boas-vindas e as primeiras perguntas.
+
+   O `CLAUDE.md` é o que faz a frase "agente criativo e vsl" chamar o agente, com as perguntas aparecendo aqui no chat.
 
 ### Opção B: para todos os projetos do seu computador (terminal)
 ```bash
-unzip agente-criativos-vsl-v1.5.zip -d ~/claude-plugins
+unzip agente-criativos-vsl-v1.6.zip -d ~/claude-plugins
 mkdir -p ~/.claude/agents ~/.claude/skills
 cp ~/claude-plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md ~/.claude/agents/
 cp -r ~/claude-plugins/agente-criativos-vsl/skills/criativo-video ~/.claude/skills/
+cat ~/claude-plugins/agente-criativos-vsl/CLAUDE-snippet.md >> ~/.claude/CLAUDE.md
 ```
 Mesmo assim, **trabalhe sempre dentro do repositório limpo** do passo 2.
 
@@ -127,20 +133,21 @@ Os dois cobram por créditos da própria plataforma. O agente sempre mostra o cu
 
 ## 7. Teste rápido (2 minutos, sem gastar créditos)
 Na sessão do repositório limpo, peça:
-> Use o agente-criativos-vsl. Quero testar a instalação: renderize a demonstração de efeitos (composição EfeitosDemo) e me mande o vídeo.
+> agente criativo e vsl: quero testar a instalação. Renderize a demonstração de efeitos (composição EfeitosDemo) e me mande o vídeo.
 
 Se o vídeo de demonstração chegar, a instalação está completa.
 
 ---
 
 ## 8. Primeiro uso
-Diga:
-> Use o agente-criativos-vsl para criar um criativo.
+Digite:
+> **agente criativo e vsl**
 
-Também pode dizer "uma VSL". O agente conduz tudo com perguntas de múltipla escolha:
+Você também pode já dizer o que quer (ex.: *"agente criativo e vsl, quero uma VSL de 10 min"*). O agente conduz tudo com perguntas de múltipla escolha:
 1. **Configuração:**
    - o que criar, formato, duração e idioma;
-   - página, nicho, público e provas.
+   - **o seu site ou página de vendas**, ou um vídeo ou material do produto, se ainda não tiver página;
+   - nicho, público e provas.
 2. **Análise da página:** resumo da oferta, alertas de política do Meta e escolha do ângulo.
 3. **Roteiro:** tabela com cenas e efeitos, ganchos A/B, escolha de rosto, voz e música, custo e aprovação.
 4. **Produção com checkpoints:** narração, look do avatar ✅, vídeo, música e efeitos, montagem, miniaturas ✅ e render.
@@ -163,9 +170,9 @@ Para ir direto com os padrões recomendados, diga **"modo rápido"**.
 ## 9. Problemas comuns
 | Sintoma | Solução |
 |---|---|
-| O agente não aparece | Abra uma sessão nova no repositório; confira se `.claude/agents/agente-criativos-vsl.md` existe |
+| O agente não responde a "agente criativo e vsl" | Abra uma sessão nova no repositório; confira se o `CLAUDE.md` da raiz tem o trecho do `CLAUDE-snippet.md` e se `.claude/skills/criativo-video` existe |
 | "Conector não disponível" | Conecte em claude.ai/customize/connectors e abra uma sessão nova |
 | O Claude não vê o repositório | Autorize o app do Claude no repositório (GitHub → Settings → Applications → Claude → Repository access) |
 | Download do HeyGen falha (403) | Libere os domínios do passo 6 ou deixe o agente usar a ponte do ElevenLabs |
-| Render interrompido | Vídeos longos levam cerca de 1 min de render por 10 s de vídeo; o agente roda em segundo plano com limite de 30 min ou mais |
+| Render interrompido | Vídeos longos levam cerca de 1 min de render por 10 s de vídeo. Em VSLs de 10–20 min, o agente renderiza por blocos e une no final (até ~2 h) |
 | Push recusado por arquivo acima de 100 MB | O agente comprime o final (cerca de 50 MB para 2 min) e deixa os brutos grandes fora do git (`assets/` no `.gitignore`) |
