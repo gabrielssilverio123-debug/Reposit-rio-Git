@@ -1,6 +1,6 @@
 # Guia de instalação: Agente de Criação de Criativos e VSL
 
-**Versão do agente:** 1.4 · **Tempo estimado:** 15 minutos
+**Versão do agente:** 1.5 · **Tempo estimado:** 15 minutos
 Você instala uma vez por conta (conectores) e uma vez por repositório (agente).
 
 ---
@@ -41,13 +41,13 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 ## 3. Instalar o agente no repositório
 
 ### Opção A: enviando o zip no chat (recomendada)
-1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.4.zip` e cole:
+1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.5.zip` e cole:
    > Instale este agente no projeto: descompacte em `plugins/`, crie os links `.claude/agents/agente-criativos-vsl.md` e `.claude/skills/criativo-video` apontando para `plugins/agente-criativos-vsl/…`, crie um `.gitignore` com `node_modules`, `out/` e `assets/`, faça commit e push.
 2. Confirme pedindo: *"Quais agentes você tem disponíveis?"*. O `agente-criativos-vsl` deve aparecer. Se não aparecer, abra uma sessão nova no mesmo repositório.
 
 ### Opção B: para todos os projetos do seu computador (terminal)
 ```bash
-unzip agente-criativos-vsl-v1.4.zip -d ~/claude-plugins
+unzip agente-criativos-vsl-v1.5.zip -d ~/claude-plugins
 mkdir -p ~/.claude/agents ~/.claude/skills
 cp ~/claude-plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md ~/.claude/agents/
 cp -r ~/claude-plugins/agente-criativos-vsl/skills/criativo-video ~/.claude/skills/
@@ -147,6 +147,16 @@ Também pode dizer "uma VSL". O agente conduz tudo com perguntas de múltipla es
 5. **Ajustes e entrega:** o MP4 no chat e no GitHub, mais textos para Meta Ads, cortes e versões A/B.
 
 Para ir direto com os padrões recomendados, diga **"modo rápido"**.
+
+📎 **Em todas as etapas você pode enviar referências**, e o agente analisa cada uma antes de usar:
+- um criativo ou VSL que você gosta (para formato, ritmo e estilo);
+- o kit da sua marca;
+- fotos e vídeos do produto;
+- um roteiro pronto;
+- uma narração já gravada (dispensa a voz gerada e economiza créditos);
+- uma amostra de voz ou de música de referência;
+- B-roll próprio;
+- prints do que quer ajustar.
 
 ---
 
