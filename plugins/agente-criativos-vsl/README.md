@@ -6,14 +6,14 @@ imagens e clipes → música e efeitos → montagem com motion em Remotion → l
 versões com e sem música → entrega. VSLs pelo Método Kishu, em 9:16 ou 16:9.
 
 ## Comece aqui
-- **Instalação** (skills, conectores HeyGen/ElevenLabs e alternativas, ambiente, teste): veja **`INSTALACAO.md`**.
+- **Instalação** (repositório limpo, skills, conectores HeyGen/ElevenLabs e alternativas, ambiente, teste): veja **`INSTALACAO.md`**.
 - **Uso:** diga *"Use o agente-criativos-vsl para criar um criativo"* (ou uma VSL). O agente conduz um **fluxo guiado** com perguntas de múltipla escolha: o que criar, formato, duração, idioma, página, nicho, público, ângulo, rosto, voz e música. Depois vêm o roteiro para aprovação, a produção com checkpoints e os ajustes. Diga *"modo rápido"* para usar os padrões recomendados.
 
 ## O que vem dentro
 - `agents/agente-criativos-vsl.md`: o **Agente de Criação de Criativos e VSL** (subagente).
 - `skills/criativo-video/`: o método completo
   - `SKILL.md`: fluxo e regras;
-  - `references/fluxo-guiado.md`: o roteiro da conversa (perguntas, opções, checkpoints, modo rápido, idiomas);
+  - `references/fluxo-guiado.md`: o roteiro da conversa (também incorporado no próprio agente) (perguntas, opções, checkpoints, modo rápido, idiomas);
   - `references/angulos.md`: 8 ângulos/formatos (inclui VSL) com estruturas e ganchos para vários nichos;
   - `references/vsl-kishu.md`: Método Kishu, a base de toda VSL (início impactante → história → plot twist com mecanismo → oferta irresistível);
   - `references/efeitos.md`: catálogo dos 15 efeitos de edição (gancho animado, palavra que bate, legenda gigante, barra de comando, melhor tomada, lista riscada, solta o arquivo, corta as pausas, carimbo, antes e depois, tela verde, zoom no rosto, tela dividida, notificação, pede comentário);
