@@ -1,6 +1,6 @@
 # Guia de instalação: Agente Criativo e VSL
 
-**Versão do agente:** 1.6 · **Tempo estimado:** 15 minutos
+**Versão do agente:** 1.7 · **Tempo estimado:** 15 minutos
 
 Você instala uma vez por conta (conectores) e uma vez por repositório (agente).
 
@@ -44,7 +44,7 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 ## 3. Instalar o agente no repositório
 
 ### Opção A: enviando o zip no chat (recomendada)
-1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.6.zip` e cole:
+1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.7.zip` e cole:
    > Instale este agente no projeto: descompacte em `plugins/`, crie os links `.claude/agents/agente-criativos-vsl.md` e `.claude/skills/criativo-video` apontando para `plugins/agente-criativos-vsl/…`, crie um `.gitignore` com `node_modules`, `out/` e `assets/`, copie o conteúdo de `plugins/agente-criativos-vsl/CLAUDE-snippet.md` para o `CLAUDE.md` da raiz (crie se não existir), faça commit e push.
 2. Abra uma **sessão nova** no mesmo repositório e digite **`agente criativo e vsl`**. Ele deve responder com as boas-vindas e as primeiras perguntas.
 
@@ -52,7 +52,7 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 
 ### Opção B: para todos os projetos do seu computador (terminal)
 ```bash
-unzip agente-criativos-vsl-v1.6.zip -d ~/claude-plugins
+unzip agente-criativos-vsl-v1.7.zip -d ~/claude-plugins
 mkdir -p ~/.claude/agents ~/.claude/skills
 cp ~/claude-plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md ~/.claude/agents/
 cp -r ~/claude-plugins/agente-criativos-vsl/skills/criativo-video ~/.claude/skills/
@@ -145,7 +145,8 @@ Digite:
 
 Você também pode já dizer o que quer (ex.: *"agente criativo e vsl, quero uma VSL de 10 min"*). O agente conduz tudo com perguntas de múltipla escolha:
 1. **Configuração:**
-   - o que criar, formato, duração e idioma;
+   - o que criar, formato e idioma;
+   - duração: criativo em segundos ou VSL em minutos (qualquer valor de 2 a 20 min);
    - **o seu site ou página de vendas**, ou um vídeo ou material do produto, se ainda não tiver página;
    - nicho, público e provas.
 2. **Análise da página:** resumo da oferta, alertas de política do Meta e escolha do ângulo.
