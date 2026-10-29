@@ -14,6 +14,7 @@ versões com e sem música → entrega. VSLs pelo Método Kishu, em 9:16 ou 16:9
 - `skills/criativo-video/`: o método completo
   - `SKILL.md`: fluxo e regras;
   - `references/fluxo-guiado.md`: o roteiro da conversa (também incorporado no próprio agente) (perguntas, opções, checkpoints, modo rápido, idiomas);
+  - `references/skills-complementares.md`: quando usar Reelsmaker, CoDesign e Creative Claw (e as alternativas);
   - `references/angulos.md`: 8 ângulos/formatos (inclui VSL) com estruturas e ganchos para vários nichos;
   - `references/vsl-kishu.md`: Método Kishu, a base de toda VSL (início impactante → história → plot twist com mecanismo → oferta irresistível);
   - `references/efeitos.md`: catálogo dos 15 efeitos de edição (gancho animado, palavra que bate, legenda gigante, barra de comando, melhor tomada, lista riscada, solta o arquivo, corta as pausas, carimbo, antes e depois, tela verde, zoom no rosto, tela dividida, notificação, pede comentário);

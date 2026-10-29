@@ -1,6 +1,6 @@
 # Guia de instalação: Agente Criativo e VSL
 
-**Versão do agente:** 1.7 · **Tempo estimado:** 15 minutos
+**Versão do agente:** 1.8 · **Tempo estimado:** 15 minutos
 
 Você instala uma vez por conta (conectores) e uma vez por repositório (agente).
 
@@ -44,7 +44,7 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 ## 3. Instalar o agente no repositório
 
 ### Opção A: enviando o zip no chat (recomendada)
-1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.7.zip` e cole:
+1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.8.zip` e cole:
    > Instale este agente no projeto: descompacte em `plugins/`, crie os links `.claude/agents/agente-criativos-vsl.md` e `.claude/skills/criativo-video` apontando para `plugins/agente-criativos-vsl/…`, crie um `.gitignore` com `node_modules`, `out/` e `assets/`, copie o conteúdo de `plugins/agente-criativos-vsl/CLAUDE-snippet.md` para o `CLAUDE.md` da raiz (crie se não existir), faça commit e push.
 2. Abra uma **sessão nova** no mesmo repositório e digite **`agente criativo e vsl`**. Ele deve responder com as boas-vindas e as primeiras perguntas.
 
@@ -52,7 +52,7 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 
 ### Opção B: para todos os projetos do seu computador (terminal)
 ```bash
-unzip agente-criativos-vsl-v1.7.zip -d ~/claude-plugins
+unzip agente-criativos-vsl-v1.8.zip -d ~/claude-plugins
 mkdir -p ~/.claude/agents ~/.claude/skills
 cp ~/claude-plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md ~/.claude/agents/
 cp -r ~/claude-plugins/agente-criativos-vsl/skills/criativo-video ~/.claude/skills/
@@ -71,16 +71,20 @@ Compacte a pasta `skills/criativo-video` em zip e envie em **Configurações →
 
 ## 4. Skills
 
-| Skill | Obrigatória? | Para quê | Como adicionar |
+| Skill | Obrigatória? | O que o agente faz com ela | Como adicionar e liberar |
 |---|---|---|---|
-| **criativo-video** (vem no zip) | ✅ Sim | É o método completo: fluxo guiado, ângulos, VSL Kishu, 15 efeitos, compliance, pipeline, scripts e modelos de edição | Instalada junto com o agente (passo 3) |
-| CoDesign (IMG.LY) | Opcional | Thumbnails, posts e banners estáticos com a mesma identidade | `/plugin` → buscar "codesign" no diretório de plugins da sua conta |
-| Creative Claw | Opcional | Gerar trilhas e efeitos sonoros sob medida | `/plugin` → buscar "creative claw" (precisa de conta) |
-| Reelsmaker | Opcional | Editar vídeos que você mesmo gravou (cortes, legendas, layout) | `/plugin` → buscar "reelsmaker" |
+| **criativo-video** (vem no zip) | ✅ Sim | Método completo: fluxo guiado, ângulos, VSL Kishu, 15 efeitos, compliance, modelos de edição | Instalada junto com o agente (passo 3) |
+| **Reelsmaker** (`it-reelsmaker`) | Opcional | Edita vídeo vertical **gravado por você**: transcrição, cortes de pausas e retakes, rosto medido, perfil de marca, legendas, cenas desenhadas | `/plugin` → buscar "reelsmaker". Na nuvem funciona sem configuração extra. Para transcrição local, libere `huggingface.co` e `*.hf.co` |
+| **CoDesign** (IMG.LY) | Opcional | **Peças estáticas e animadas** da campanha: capa ou thumbnail da VSL, posts, carrossel, stories, end card, redimensionar e traduzir | `/plugin` → buscar "codesign". Libere `img.ly` e `*.img.ly` e faça login (veja abaixo) |
+| **Creative Claw** | Opcional | **Trilha original, efeitos sonoros e voz sob medida** e UGC | `/plugin` → buscar "creative claw". Libere `creativeclaw.co` e `*.creativeclaw.co`. Precisa de conta |
 
-O agente funciona só com a `criativo-video`. As opcionais ampliam o que ele faz.
+O agente verifica sozinho quais estão disponíveis no início de cada sessão e só oferece o que funciona. Sem elas, ele usa as alternativas próprias (Remotion, scripts e biblioteca do HeyGen).
 
----
+**Login da CoDesign no Claude Code na nuvem:**
+1. Peça ao agente: *"faça o login da CoDesign"*.
+2. Abra o link que ele enviar e entre na sua conta IMG.LY.
+3. No final, o navegador mostra um erro de página em `127.0.0.1:…/callback?code=…`. É esperado: **copie o endereço inteiro e cole no chat**.
+4. O agente conclui o login. O link vale por 10 minutos.
 
 ## 5. Conectores (MCP)
 
@@ -118,6 +122,9 @@ Os dois cobram por créditos da própria plataforma. O agente sempre mostra o cu
   - `storage.googleapis.com`
   - `fonts.googleapis.com`
   - `fonts.gstatic.com`
+  - `img.ly` e `*.img.ly` (CoDesign, opcional)
+  - `creativeclaw.co` e `*.creativeclaw.co` (Creative Claw, opcional)
+  - `huggingface.co` e `*.hf.co` (transcrição local do Reelsmaker, opcional)
 
   Guia: https://code.claude.com/docs/en/cloud-environments#network-access
 

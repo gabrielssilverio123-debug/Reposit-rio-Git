@@ -52,6 +52,9 @@ Escolha em `references/angulos.md` (antes/depois, curiosidade/segredo, POV dela,
 - `ROTEIRO.md` na pasta do criativo (estratégia, roteiro, produção, conformidade, textos sugeridos para o Meta: texto principal, título, botão).
 - Contact sheet, commit/push, arquivos no chat e resumo curto do que foi feito e do que precisa de atenção.
 
+## Skills complementares
+Reelsmaker (vídeo gravado pela pessoa), CoDesign (peças estáticas e animadas da campanha) e Creative Claw (trilha, efeitos sonoros e voz sob medida): quando e como usar e as alternativas estão em `references/skills-complementares.md`. Verifique a disponibilidade na Etapa 0.
+
 ## Regras de layout (1080×1920)
 - Zonas de interface: topo 0–220 px, base 1500–1920 px, direita 960–1080 px → nada importante ali.
 - Nunca texto sobre rosto. Legenda grande (70–90 px, peso 900), palavra ativa na cor de destaque.

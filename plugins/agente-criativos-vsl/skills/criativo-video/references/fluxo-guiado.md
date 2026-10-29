@@ -17,6 +17,8 @@ Objetivo: qualquer pessoa, sem conhecer edição, sai com um criativo ou VSL pro
 ## Etapa 0: Boas-vindas (1 mensagem)
 > Olá! Sou o **Agente Criativo e VSL**. Em 5 etapas a gente sai com o vídeo pronto: **1) configuração · 2) análise da sua página · 3) roteiro · 4) produção · 5) ajustes e entrega**. Você aprova cada etapa antes de eu gastar créditos. 📎 Em qualquer etapa você pode me mandar referências: um criativo que você gosta, roteiro, narração já gravada, fotos, vídeos, música ou o kit da marca.
 
+**Antes da primeira pergunta**, verifique em silêncio as skills complementares (Reelsmaker, CoDesign, Creative Claw; ver `skills-complementares.md`) e os conectores (HeyGen, ElevenLabs). Ofereça nas perguntas só o que funciona. Se algo estiver instalado mas indisponível (login ou rede), avise em uma linha e siga com a alternativa.
+
 ## Etapa 1: Configuração (rodada 1, 3 perguntas)
 1. **O que vamos criar?**
    - Criativo para anúncio (5–60 s) (Recomendado para tráfego frio)
@@ -98,12 +100,12 @@ O agente usa para escolher e ajustar o ângulo e o gancho, sem copiar texto de t
   2. **Quem aparece?**
      - Avatar IA a partir da sua foto ou da sua persona (precisa de autorização da pessoa da foto) (Recomendado);
      - Avatar IA criado do zero;
-     - Vídeo gravado por você (melhor tomada, corta as pausas, tela verde);
+     - Vídeo gravado por você (melhor tomada, corta as pausas, tela verde). Com o **Reelsmaker** disponível, use o fluxo dele para vídeo vertical gravado: rosto medido, perfil de marca, legendas e cenas desenhadas;
      - Sem rosto: narração e cenas.
   3. **Voz:**
      - Feminina ou masculina, combinada com o tom: Enérgica/vendedora · Calorosa/próxima · Calma/autoridade.
      - Depois, envie **3 amostras** (prévias gratuitas, `list_voices` filtrando idioma e gênero) para a pessoa escolher.
-  4. **Música:** Enérgica/pop · Latina/urbana · Emocional/inspiradora · Corporativa/tech · Sem música (só a versão para a biblioteca do Meta).
+  4. **Música:** Enérgica/pop · Latina/urbana · Emocional/inspiradora · Corporativa/tech · Sem música (só a versão para a biblioteca do Meta). Com o **Creative Claw** disponível, acrescente "Trilha original sob medida (gera custo)".
 - **Mostre o custo estimado em créditos** e só siga com o "ok".
 
 📎 **Referências desta etapa** (cada uma muda o que o agente produz):
@@ -157,7 +159,8 @@ O material próprio tem prioridade sobre as cenas geradas por IA e reduz o custo
   - textos para o Meta Ads (texto principal, título, descrição; agressivo, curiosidade e curto);
   - cortes curtos da VSL (15–30 s em 9:16);
   - versões A/B do gancho;
-  - versão em outro idioma, reaproveitando cenas e trocando narração e legenda.
+  - versão em outro idioma, reaproveitando cenas e trocando narração e legenda;
+  - **peças estáticas da campanha** no mesmo visual (capa ou thumbnail da VSL, posts, carrossel, stories), com a **CoDesign** se estiver disponível, ou com o Remotion `still`.
 - **Commit e push** da pasta `ads/<nome>/` com o `ROTEIRO.md` atualizado (produção, créditos usados, onde está cada arquivo).
 
 ---
