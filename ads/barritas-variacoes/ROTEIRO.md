@@ -1,6 +1,6 @@
 # Variação 1: "Uma manhã por semana" (renda extra) · 9:16 · 36–38 s · espanhol LATAM
 
-**Status:** roteiro para aprovação. Base: o criativo validado (`ANALISE.md`).
+**Status:** roteiro v2 (mais agressivo) para aprovação · Voz: a mesma do validado · Música: pop enérgica. Base: o criativo validado (`ANALISE.md`).
 
 ## O que mantenho do validado (o que vende)
 - Gancho em forma de pergunta com algo concreto nos primeiros 3 s.
@@ -47,3 +47,23 @@
 - **Música e efeitos sonoros:** biblioteca do HeyGen (sem custo).
 - **Montagem:** Remotion, com os efeitos do catálogo.
 - **Entrega:** MP4 9:16 com música, legenda .srt e textos para o Meta Ads.
+
+---
+
+## v2: mais agressiva (pedido do cliente)
+Frases curtas, foco no dinheiro e urgência. Mantém as mesmas cenas e os mesmos efeitos da tabela acima.
+
+> Una mañana de domingo. Eso es todo lo que necesitas para ganar dinero extra toda la semana. Deja de vender de una en una. El domingo preparas el stock… y el lunes lo ofreces donde la gente ya compra: tu trabajo, el gimnasio, la escuela. Te cuesta un dólar. La vendes a dos cincuenta. Veinte por semana: treinta dólares extra. Cuarenta: sesenta. Sin local, sin máquinas, sin experiencia. Eugenia empezó con una bandeja de prueba. Hoy tiene tres puntos de venta fijos. Recetas, precios y un Asesor IA que lo hace contigo: nueve noventa. Toca el enlace. Este domingo empiezas tú.
+
+(~100 palavras, cerca de 36 s. "Veinte → treinta / cuarenta → sesenta" aparece na tela com o selo **Ejemplo**.)
+
+**Textos de seção na tela (caixa alta):**
+1. 1 MAÑANA = DINERO TODA LA SEMANA
+2. ✕ DE UNA EN UNA
+3. DOMINGO: STOCK LISTO
+4. $1 → $2,50 = +$1,50
+5. 20/SEMANA = +$30 · 40 = +$60 (Ejemplo)
+6. SIN LOCAL · SIN MÁQUINAS · SIN EXPERIENCIA
+7. CASO REAL: 3 PUNTOS FIJOS
+8. US$9,90 · AHORRA 80%
+9. EMPIEZA ESTE DOMINGO 👇
