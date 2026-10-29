@@ -1,6 +1,6 @@
 # Variação 1: "Uma manhã por semana" (renda extra) · 9:16 · 36–38 s · espanhol LATAM
 
-**Status:** roteiro v2 (mais agressivo) para aprovação · Voz: a mesma do validado · Música: pop enérgica. Base: o criativo validado (`ANALISE.md`).
+**Status:** produzido (v2 agressiva) · Voz: Lively Laura Excited (sem áudio limpo do validado para clonar) · Música: pop enérgica. Base: o criativo validado (`ANALISE.md`).
 
 ## O que mantenho do validado (o que vende)
 - Gancho em forma de pergunta com algo concreto nos primeiros 3 s.
@@ -67,3 +67,22 @@ Frases curtas, foco no dinheiro e urgência. Mantém as mesmas cenas e os mesmos
 7. CASO REAL: 3 PUNTOS FIJOS
 8. US$9,90 · AHORRA 80%
 9. EMPIEZA ESTE DOMINGO 👇
+
+---
+## Produção
+- **Narração:** HeyGen, voz Lively Laura Excited, velocidade 1,12. Pausas cortadas, 37 s.
+- **Cenas:**
+  - **trechos limpos do validado (imagens próprias):** a mordida (0–1,6 s), os closes de chocolate, as páginas do método e o mockup. O topo do mockup ficou fora do quadro para esconder "genera hasta US$1,500 al mes";
+  - **geradas por IA em 9:16:** mistura, corte e estoque pronto (estáticas);
+  - **animadas (image-to-video 1080p):** bandeja, escritório e academia.
+- **Música:** biblioteca HeyGen, pop/hip-hop enérgico.
+- **Efeitos:**
+  - títulos em caixa alta e legenda laranja e branca (estilo do validado);
+  - lista riscada;
+  - palavra que bate;
+  - cartão de custos, com o selo Ejemplo;
+  - checklist;
+  - notificação;
+  - preço riscado;
+  - CTA pulsando.
+- **Entrega:** `final/var1-renda-extra-9x16.mp4` (38 s, −14 LUFS), `.es.srt` e `contact-sheet.jpg`.
