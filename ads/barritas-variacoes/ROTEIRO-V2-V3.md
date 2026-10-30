@@ -108,14 +108,5 @@ O desejo vem de "todo mundo está vendendo" e de "a IA faz o trabalho chato".
   - legendas `.es.srt`;
   - contact sheets.
 
-## Textos sugeridos para o Meta Ads
-
-**V2: "La meta de US$4.000"**
-- **Texto principal:** ¿Cuántas barritas necesitas para tu meta? Hicimos la cuenta 👇 Con la línea premium y 3 puntos fijos, la meta deja de ser un sueño y se vuelve un plan. Tu Asesor IA calcula precios, arma tu producción y te escribe los mensajes de venta. Método + Asesor IA + 3 bonos por US$9,90 (pago único, garantía de 7 días).
-- **Título:** Arma tu meta con barritas caseras
-- **Botón:** Más información
-
-**V3: "Lo que dicen ellas"**
-- **Texto principal:** "Aquí se venden muchas." 🍫 Carol, Eugenia y más de 9.500 personas ya empezaron con Barritas Que Venden. Prepara, calcula, presenta y ofrece, y tu Asesor IA hace lo pesado. Todo por US$9,90, con 7 días de garantía.
-- **Título:** Sé la próxima en vender barritas
-- **Botón:** Más información
+## Textos para o Meta Ads
+Ver `TEXTOS-META.md`: texto principal, títulos e descrições de cada variação.
