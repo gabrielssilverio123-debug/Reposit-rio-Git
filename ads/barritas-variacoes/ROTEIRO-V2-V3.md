@@ -1,6 +1,6 @@
 # Variações 2 e 3: renda extra · 9:16 · até 35 s · narração 1,15x · espanhol LATAM
 
-**Status:** roteiros para aprovação.
+**Status:** aprovados e produzidos. Lucro da linha premium confirmado: cerca de US$3 por barrita.
 
 **Base comum aos dois:**
 - **Voz:** Lively Laura (Excited), a mesma da Variação 1 e da VSL, a 1,15x.
@@ -40,7 +40,7 @@ As cenas de barritas vêm das imagens geradas para a Variação 1 e para a VSL (
 
 **Conta (selo "Ejemplo" na tela):**
 - US$4.000 ÷ US$3 = cerca de 1.333 barritas por mês, ou 15 por dia em cada um de 3 pontos (30 dias).
-- **Precisa de confirmação:** os "US$3 de lucro na linha premium" são uma estimativa minha a partir de "vende al doble de precio" (US$5). Se o seu custo premium for outro, ajusto.
+- Os "US$3 de lucro na linha premium" foram confirmados pelo cliente (preço premium de cerca de US$5).
 
 ---
 
@@ -68,10 +68,54 @@ O desejo vem de "todo mundo está vendendo" e de "a IA faz o trabalho chato".
 
 ---
 
-## Produção e custo estimado (HeyGen, ~1.058 créditos disponíveis)
+## Produção e custo estimado (aprovação)
 - Narrações: 2 gerações (baixo custo).
 - Look 9:16 da apresentadora a partir da foto da persona (baixo custo).
 - 2 vídeos com sincronia labial de ~35 s.
 - 3–4 cenas novas por IA (loja, celular com chat), mais as cenas próprias já geradas.
 - Música e efeitos da biblioteca (sem custo).
 - **Total estimado:** 40–60 créditos.
+
+---
+
+## Produção (feita)
+- **Narração:** HeyGen, Lively Laura (Excited), velocidade 1,15, com as pausas cortadas:
+  - V2: 34,5 s;
+  - V3: 29,0 s.
+- **Apresentadora:** look 9:16 da mesma persona (selfie na cozinha, avental verde), com sincronia labial a partir da própria narração (HeyGen Avatar, expressividade alta).
+  - Na V2, o trecho de 4,5–8,5 s do vídeo da apresentadora tem um objeto amarelo com texto ilegível. Esse trecho fica coberto pela cena da conta, e a apresentadora só aparece em trechos limpos.
+- **Cenas novas por IA:** loja (ponto de venda) e mulher com o celular (chat do Asesor IA).
+- **Provas usadas:**
+  - Carol: prints do grupo, tirados da própria página;
+  - Eugenia: real e autorizada;
+  - 4,9★ e +9.500: da página;
+  - garantia de 7 dias.
+- **Asesor IA:**
+  - barra de comando com o robô da página;
+  - chat com o selo "Simulación de ejemplo" (a página usa o mesmo aviso).
+- **Números:**
+  - V2: US$3, 1.333 e 15/día levam o selo "Ejemplo";
+  - V3: US$1 → US$2,50 na simulação, a conta da própria página.
+- **Mockup:** o topo ("genera hasta US$1,500 al mes") fica fora do quadro, como na V1.
+- **Montagem:** Remotion (`src/Var2.tsx`, `src/Var3.tsx` e as peças comuns em `src/kit.tsx`).
+- **Som:**
+  - música pop da biblioteca HeyGen (trechos diferentes em cada versão);
+  - whoosh em cada corte;
+  - pop, notificação, caixa registradora e impacto nos destaques.
+- **Master:** −14 LUFS.
+- **Entrega:**
+  - `final/var2-meta-4000-9x16.mp4` e `final/var3-resenas-9x16.mp4`;
+  - legendas `.es.srt`;
+  - contact sheets.
+
+## Textos sugeridos para o Meta Ads
+
+**V2: "La meta de US$4.000"**
+- **Texto principal:** ¿Cuántas barritas necesitas para tu meta? Hicimos la cuenta 👇 Con la línea premium y 3 puntos fijos, la meta deja de ser un sueño y se vuelve un plan. Tu Asesor IA calcula precios, arma tu producción y te escribe los mensajes de venta. Método + Asesor IA + 3 bonos por US$9,90 (pago único, garantía de 7 días).
+- **Título:** Arma tu meta con barritas caseras
+- **Botón:** Más información
+
+**V3: "Lo que dicen ellas"**
+- **Texto principal:** "Aquí se venden muchas." 🍫 Carol, Eugenia y más de 9.500 personas ya empezaron con Barritas Que Venden. Prepara, calcula, presenta y ofrece, y tu Asesor IA hace lo pesado. Todo por US$9,90, con 7 días de garantía.
+- **Título:** Sé la próxima en vender barritas
+- **Botón:** Más información

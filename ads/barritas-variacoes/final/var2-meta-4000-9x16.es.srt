@@ -1,0 +1,55 @@
+1
+00:00:00,167 --> 00:00:03,343
+¿Cuántas barritas necesitas para ganar cuatro mil dólares al mes?
+
+2
+00:00:03,391 --> 00:00:04,289
+Hice la cuenta.
+
+3
+00:00:04,309 --> 00:00:08,104
+En la línea premium, cada barrita te deja unos tres dólares.
+
+4
+00:00:08,124 --> 00:00:10,006
+Eso es mil trescientas al mes…
+
+5
+00:00:10,026 --> 00:00:10,967
+parece mucho, ¿no?
+
+6
+00:00:10,987 --> 00:00:11,983
+Pero divídelo:
+
+7
+00:00:12,003 --> 00:00:18,493
+tres puntos fijos, un gimnasio, una oficina, una tienda, y son quince barritas al día en cada uno.
+
+8
+00:00:18,513 --> 00:00:19,671
+Así empezó Eugenia:
+
+9
+00:00:19,691 --> 00:00:20,883
+con una bandeja de prueba.
+
+10
+00:00:20,903 --> 00:00:22,651
+Hoy tiene tres puntos fijos.
+
+11
+00:00:22,935 --> 00:00:24,239
+Y no lo haces sola:
+
+12
+00:00:24,282 --> 00:00:29,575
+tu Asesor IA calcula tus precios, arma tu producción y te escribe los mensajes de venta.
+
+13
+00:00:29,697 --> 00:00:32,352
+Barritas Que Venden, por solo nueve noventa.
+
+14
+00:00:32,459 --> 00:00:34,451
+Toca el enlace y arma tu meta.
