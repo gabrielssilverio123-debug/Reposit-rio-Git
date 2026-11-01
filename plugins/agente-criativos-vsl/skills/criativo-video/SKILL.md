@@ -53,7 +53,7 @@ Escolha em `references/angulos.md` (antes/depois, curiosidade/segredo, POV dela,
 - Contact sheet, commit/push, arquivos no chat e resumo curto do que foi feito e do que precisa de atenção.
 
 ## Skills complementares
-Reelsmaker (vídeo gravado pela pessoa), CoDesign (peças estáticas e animadas da campanha) e Creative Claw (trilha, efeitos sonoros e voz sob medida): quando e como usar e as alternativas estão em `references/skills-complementares.md`. Verifique a disponibilidade na Etapa 0.
+Reelsmaker (vídeo gravado pela pessoa), CoDesign (peças estáticas e animadas da campanha), Creative Claw (trilha, efeitos sonoros e voz sob medida), Remotion oficiais (boas práticas de montagem), Hyperframes (motion graphics em HTML), Whisper e yt-dlp (`transcrever-whisper` e `baixar-referencia`, que vêm no plugin), Taste Skill e Web Design Guidelines (página de vendas): quando e como usar e as alternativas estão em `references/skills-complementares.md`. Verifique a disponibilidade na Etapa 0.
 
 ## Regras de layout (1080×1920)
 - Zonas de interface: topo 0–220 px, base 1500–1920 px, direita 960–1080 px → nada importante ali.

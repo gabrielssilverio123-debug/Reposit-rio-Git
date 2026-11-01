@@ -11,10 +11,13 @@ versões com e sem música → entrega. VSLs pelo Método Kishu, em 9:16 ou 16:9
 
 ## O que vem dentro
 - `agents/agente-criativos-vsl.md`: o **Agente de Criação de Criativos e VSL** (subagente).
+- `skills/transcrever-whisper/`: transcrição com Whisper (tempo por palavra, `.srt`, texto).
+- `skills/baixar-referencia/`: baixa referências pelo link com yt-dlp (MP4, áudio, contact sheet).
+- `instalar-skills.sh`: instala tudo no repositório, com os links do agente e das skills e as skills complementares das fontes oficiais (Remotion, Hyperframes, Taste Skill, Web Design Guidelines).
 - `skills/criativo-video/`: o método completo
   - `SKILL.md`: fluxo e regras;
   - `references/fluxo-guiado.md`: o roteiro da conversa (também incorporado no próprio agente) (perguntas, opções, checkpoints, modo rápido, idiomas);
-  - `references/skills-complementares.md`: quando usar Reelsmaker, CoDesign e Creative Claw (e as alternativas);
+  - `references/skills-complementares.md`: quando usar Reelsmaker, CoDesign, Creative Claw, Remotion oficiais, Hyperframes, Whisper, yt-dlp, Taste Skill e Web Design Guidelines (e as alternativas);
   - `references/angulos.md`: 8 ângulos/formatos (inclui VSL) com estruturas e ganchos para vários nichos;
   - `references/vsl-kishu.md`: Método Kishu, a base de toda VSL (início impactante → história → plot twist com mecanismo → oferta irresistível);
   - `references/efeitos.md`: catálogo dos 15 efeitos de edição (gancho animado, palavra que bate, legenda gigante, barra de comando, melhor tomada, lista riscada, solta o arquivo, corta as pausas, carimbo, antes e depois, tela verde, zoom no rosto, tela dividida, notificação, pede comentário);
@@ -27,10 +30,8 @@ versões com e sem música → entrega. VSLs pelo Método Kishu, em 9:16 ou 16:9
 ## Instalação
 **Opção A: em um projeto (recomendado)**
 1. Descompacte o zip na raiz do projeto, de forma que fique `plugins/agente-criativos-vsl/`.
-2. Copie (ou crie links) para a pasta `.claude` do projeto:
-   - `plugins/agente-criativos-vsl/skills/criativo-video` → `.claude/skills/criativo-video`
-   - `plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md` → `.claude/agents/agente-criativos-vsl.md`
-3. Abra o Claude Code no projeto. A skill aparece como `/criativo-video` e o agente como `agente-criativos-vsl`.
+2. Na raiz, rode `bash plugins/agente-criativos-vsl/instalar-skills.sh`. Ele cria os links do agente e das skills e instala as skills complementares.
+3. Faça commit de `plugins/`, `.agents/` e `.claude/` e abra o Claude Code no projeto. A skill aparece como `/criativo-video` e o agente como `agente-criativos-vsl`.
 
 **Opção B: para todos os seus projetos**
 Copie as mesmas pastas para `~/.claude/skills/` e `~/.claude/agents/`.
@@ -46,7 +47,7 @@ Esta pasta já segue o formato de plugin (`.claude-plugin/plugin.json`). Publiqu
 - "Crie 3 variações de gancho para o criativo X para teste A/B."
 
 ## Requisitos
-- Node 18+, ffmpeg, Python 3, Chromium (para Remotion).
+- Node 18+ (22+ para o Hyperframes), ffmpeg, Python 3, Chromium (para Remotion). `yt-dlp` e `faster-whisper` são instalados pelas skills na primeira vez.
 - Conectores recomendados: HeyGen (voz, avatar, imagens, biblioteca de música/SFX), ElevenLabs (voz, imagem, vídeo).
   Opcionais: Creative Claw, Higgsfield.
 - Em ambientes na nuvem com rede restrita, libere `*.heygen.ai` e o domínio do Creative Claw em Network access.

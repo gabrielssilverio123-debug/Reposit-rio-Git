@@ -1,6 +1,6 @@
-# Skills complementares (Reelsmaker, CoDesign, Creative Claw)
+# Skills complementares
 
-O agente funciona sozinho com a skill `criativo-video`. Estas três ampliam o que ele entrega. **Na Etapa 0, verifique em silêncio quais estão disponíveis** e só ofereça nas perguntas o que funciona na sessão.
+O agente funciona sozinho com a skill `criativo-video`. As skills abaixo ampliam o que ele entrega. **Na Etapa 0, verifique em silêncio quais estão disponíveis** e só ofereça nas perguntas o que funciona na sessão.
 
 ## Verificação rápida (Etapa 0, sem mostrar à pessoa se estiver tudo certo)
 | Skill | Como verificar | Disponível quando |
@@ -8,6 +8,11 @@ O agente funciona sozinho com a skill `criativo-video`. Estas três ampliam o qu
 | **Reelsmaker** (`it-reelsmaker`) | Existe na lista de skills e `python3 "<skill>/scripts/doctor.py"` termina com "required: all present" | Claude Code com ffmpeg, Node e Python |
 | **CoDesign** (`codesign:*`, IMG.LY) | Ferramenta `mcp__plugin_codesign_codesign__diagnostics` → `login.signedIn: true` e acesso a `*.img.ly` | Logado na conta IMG.LY e rede liberada |
 | **Creative Claw** (`creative-claw:*`) | As ferramentas `mcp__plugin_creative-claw_*` aparecem na sessão | Conta Creative Claw e rede liberada para `*.creativeclaw.co` |
+| **Remotion oficiais** (`remotion-best-practices`, `remotion-captions`, `remotion-render`…) | Existem na lista de skills | Sempre (só leitura de boas práticas) |
+| **Hyperframes** (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `reverse-any-video`, `media-use`…) | Existem na lista de skills e `npx hyperframes --version` responde | Node 22+ e ffmpeg; o CLI vem do npm |
+| **Whisper** (`transcrever-whisper`, vem no plugin) | `python3 -c "import faster_whisper"` (o script instala se faltar) | Modelo baixado do Hugging Face (`huggingface.co`, `*.hf.co`) ou `--modelo-dir` |
+| **yt-dlp** (`baixar-referencia`, vem no plugin) | `yt-dlp --version` (o script instala se faltar) | Rede liberada para a plataforma do link |
+| **Taste Skill** (`design-taste-frontend`) e **Web Design Guidelines** (`web-design-guidelines`) | Existem na lista de skills | Sempre; a Web Design Guidelines busca as regras em `raw.githubusercontent.com` |
 
 Se uma delas estiver instalada mas indisponível, diga em **uma linha** o que falta (login, domínio na rede) e siga com a alternativa. Não bloqueie o fluxo.
 
@@ -80,8 +85,61 @@ Se uma delas estiver instalada mas indisponível, diga em **uma linha** o que fa
 
 ---
 
+## Remotion oficiais: boas práticas da própria Remotion
+**Quando usar:** em toda montagem. Antes de escrever ou ajustar uma composição, consulte `remotion-best-practices` (é o roteador das demais).
+- `remotion-captions`: legendas animadas e transcrição;
+- `remotion-render`: exportação (codec, qualidade, render por blocos em VSL longa);
+- `remotion-multimedia`: vídeo e áudio embutidos (cortar, velocidade, volume);
+- `remotion-markup`: animação e efeitos; `remotion-docs`: busca na documentação.
+
+Os nossos modelos (`templates/remotion/`) e o catálogo de efeitos continuam sendo o ponto de partida. As skills oficiais servem para fazer do jeito certo.
+
+---
+
+## Hyperframes (HeyGen): motion graphics em HTML que vira vídeo
+**Quando usar:**
+- cenas de **motion graphics mais elaboradas** do que os nossos efeitos: títulos 3D, kinetic type, gráficos e mapas animados, transições especiais, overlays (CRT, glitch, grão de filme);
+- **blocos prontos** (cerca de 450 no `hyperframes-registry`) antes de desenhar à mão;
+- **recriar a estrutura de uma referência** com `reverse-any-video`, como base de ritmo e composição (nunca cópia);
+- `media-use` para música, efeitos, ícones e looks com ferramentas locais ou HeyGen.
+
+**Como encaixar no fluxo:**
+- **Etapa 4, montagem:** renderize a cena no Hyperframes (MP4) e insira no Remotion como `OffthreadVideo`, para manter legendas, som e master no mesmo projeto.
+- **Comece pelo `hyperframes`:** ele é o roteador e indica o fluxo certo.
+
+**Alternativa:** os efeitos de `efeitos.md` em Remotion.
+
+---
+
+## Whisper e yt-dlp: referências pelo link e transcrição sem custo
+- **`baixar-referencia`** (yt-dlp): a pessoa manda o link de um criativo, VSL ou concorrente. O agente baixa o MP4, o áudio e a contact sheet para montar a ficha da referência.
+- **`transcrever-whisper`** (faster-whisper): transcreve com tempo por palavra (`.words.json` no formato dos templates), `.srt` e texto. Serve para referências, vídeos gravados pela pessoa e narrações sem timestamps.
+
+**Alternativas:**
+- o arquivo enviado pela pessoa no lugar do link;
+- os tempos por palavra da narração do HeyGen;
+- ElevenLabs `creative_transcribe_audio`, que gasta créditos (avise antes).
+
+---
+
+## Taste Skill e Web Design Guidelines: a página que recebe o tráfego
+**Quando usar:** na Etapa 2 (análise da página) e na Etapa 5 (próximos passos), quando a página de vendas tiver problemas que derrubam a conversão do anúncio.
+- `web-design-guidelines` (Vercel): auditoria de acessibilidade, interface e boas práticas, com a lista `arquivo:linha` do que corrigir. Precisa do código da página (HTML enviado ou repositório do site).
+- `design-taste-frontend` (Taste Skill): direção de arte para a página ou para peças desenhadas em código ficarem menos genéricas.
+
+**Como encaixar:** entregue a lista de melhorias como recomendação. Só altere a página se a pessoa pedir e se o código estiver neste repositório ou no repositório do site.
+
+---
+
 ## Domínios de rede (Claude Code na nuvem)
 Libere em **Network access → Allowed domains** e abra uma sessão nova:
 - **CoDesign:** `img.ly`, `*.img.ly` (inclui `clerk.img.ly`, `cdn.img.ly` e `gateway.img.ly`).
 - **Creative Claw:** `creativeclaw.co`, `*.creativeclaw.co` (inclui `app.creativeclaw.co` e `clerk.creativeclaw.co`).
 - **Reelsmaker:** nada extra. Para transcrição local, o download do modelo precisa de `huggingface.co` e `*.hf.co`.
+- **Whisper** (`transcrever-whisper`): `huggingface.co` e `*.hf.co` (download do modelo, uma vez por sessão na nuvem).
+- **yt-dlp** (`baixar-referencia`), conforme a plataforma:
+  - YouTube: `youtube.com`, `*.youtube.com`, `*.googlevideo.com`, `*.ytimg.com`;
+  - TikTok: `tiktok.com`, `*.tiktok.com`, `*.tiktokcdn.com`;
+  - Instagram e Facebook: `instagram.com`, `*.instagram.com`, `*.cdninstagram.com`, `facebook.com`, `*.facebook.com`, `*.fbcdn.net`.
+- **Hyperframes:** `registry.npmjs.org` (CLI). Os blocos do registry vêm do GitHub.
+- **Web Design Guidelines:** `raw.githubusercontent.com`.

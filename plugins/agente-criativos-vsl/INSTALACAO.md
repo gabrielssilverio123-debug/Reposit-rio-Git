@@ -1,6 +1,6 @@
 # Guia de instalação: Agente Criativo e VSL
 
-**Versão do agente:** 1.8 · **Tempo estimado:** 15 minutos
+**Versão do agente:** 1.9 · **Tempo estimado:** 15 minutos
 
 Você instala uma vez por conta (conectores) e uma vez por repositório (agente).
 
@@ -44,18 +44,18 @@ O agente salva cada criativo numa pasta própria (`ads/<nome>/`) com roteiro, im
 ## 3. Instalar o agente no repositório
 
 ### Opção A: enviando o zip no chat (recomendada)
-1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.8.zip` e cole:
-   > Instale este agente no projeto: descompacte em `plugins/`, crie os links `.claude/agents/agente-criativos-vsl.md` e `.claude/skills/criativo-video` apontando para `plugins/agente-criativos-vsl/…`, crie um `.gitignore` com `node_modules`, `out/` e `assets/`, copie o conteúdo de `plugins/agente-criativos-vsl/CLAUDE-snippet.md` para o `CLAUDE.md` da raiz (crie se não existir), faça commit e push.
+1. Na sessão aberta no repositório limpo, envie o arquivo `agente-criativos-vsl-v1.9.zip` e cole:
+   > Instale este agente no projeto: descompacte em `plugins/`, rode `bash plugins/agente-criativos-vsl/instalar-skills.sh` na raiz (ele cria os links do agente e das skills e instala as skills complementares do GitHub), crie um `.gitignore` com `node_modules`, `out/` e `assets/`, copie o conteúdo de `plugins/agente-criativos-vsl/CLAUDE-snippet.md` para o `CLAUDE.md` da raiz (crie se não existir), faça commit e push.
 2. Abra uma **sessão nova** no mesmo repositório e digite **`agente criativo e vsl`**. Ele deve responder com as boas-vindas e as primeiras perguntas.
 
    O `CLAUDE.md` é o que faz a frase "agente criativo e vsl" chamar o agente, com as perguntas aparecendo aqui no chat.
 
 ### Opção B: para todos os projetos do seu computador (terminal)
 ```bash
-unzip agente-criativos-vsl-v1.8.zip -d ~/claude-plugins
+unzip agente-criativos-vsl-v1.9.zip -d ~/claude-plugins
 mkdir -p ~/.claude/agents ~/.claude/skills
 cp ~/claude-plugins/agente-criativos-vsl/agents/agente-criativos-vsl.md ~/.claude/agents/
-cp -r ~/claude-plugins/agente-criativos-vsl/skills/criativo-video ~/.claude/skills/
+cp -r ~/claude-plugins/agente-criativos-vsl/skills/criativo-video ~/claude-plugins/agente-criativos-vsl/skills/transcrever-whisper ~/claude-plugins/agente-criativos-vsl/skills/baixar-referencia ~/.claude/skills/
 cat ~/claude-plugins/agente-criativos-vsl/CLAUDE-snippet.md >> ~/.claude/CLAUDE.md
 ```
 Mesmo assim, **trabalhe sempre dentro do repositório limpo** do passo 2.
@@ -77,6 +77,16 @@ Compacte a pasta `skills/criativo-video` em zip e envie em **Configurações →
 | **Reelsmaker** (`it-reelsmaker`) | Opcional | Edita vídeo vertical **gravado por você**: transcrição, cortes de pausas e retakes, rosto medido, perfil de marca, legendas, cenas desenhadas | `/plugin` → buscar "reelsmaker". Na nuvem funciona sem configuração extra. Para transcrição local, libere `huggingface.co` e `*.hf.co` |
 | **CoDesign** (IMG.LY) | Opcional | **Peças estáticas e animadas** da campanha: capa ou thumbnail da VSL, posts, carrossel, stories, end card, redimensionar e traduzir | `/plugin` → buscar "codesign". Libere `img.ly` e `*.img.ly` e faça login (veja abaixo) |
 | **Creative Claw** | Opcional | **Trilha original, efeitos sonoros e voz sob medida** e UGC | `/plugin` → buscar "creative claw". Libere `creativeclaw.co` e `*.creativeclaw.co`. Precisa de conta |
+| **transcrever-whisper** (vem no zip) | Recomendada | Transcreve referências, vídeos gravados e narrações com tempo por palavra, sem custo (Whisper local) | Instalada pelo `instalar-skills.sh`. Na nuvem, libere `huggingface.co` e `*.hf.co` para o modelo |
+| **baixar-referencia** (vem no zip) | Recomendada | Baixa o criativo ou VSL de referência pelo link (YouTube, TikTok, Instagram, Facebook) com yt-dlp | Instalada pelo `instalar-skills.sh`. Na nuvem, libere os domínios da plataforma (passo 6) |
+| **Remotion oficiais** (`remotion-dev/skills`, 12 skills) | Recomendada | Boas práticas oficiais de montagem, legendas e render no Remotion, que o agente usa em todo vídeo | `instalar-skills.sh`, ou `npx skills add remotion-dev/skills` |
+| **Hyperframes** (`heygen-com/hyperframes`, 8 skills) | Opcional | Motion graphics em HTML para vídeo (títulos 3D, gráficos, transições), cerca de 450 blocos prontos e `reverse-any-video` para recriar a estrutura de uma referência | `instalar-skills.sh`, ou `npx skills add heygen-com/hyperframes`. Precisa de Node 22+ |
+| **Taste Skill** (`design-taste-frontend`) | Opcional | Direção de arte para a página de vendas e peças desenhadas em código, com visual menos genérico | `instalar-skills.sh`, ou `npx skills add Leonxlnx/taste-skill` |
+| **Web Design Guidelines** (Vercel) | Opcional | Auditoria da página de vendas (acessibilidade, interface, boas práticas) antes de escalar o anúncio | `instalar-skills.sh`, ou `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
+
+**Instalação de todas de uma vez:** na raiz do repositório, rode `bash plugins/agente-criativos-vsl/instalar-skills.sh`. Ele baixa as skills das fontes oficiais no GitHub para `.agents/skills/`, cria os links em `.claude/skills/` e instala `yt-dlp` e `faster-whisper`. **Faça commit** de `.agents/` e `.claude/`: assim as skills ficam permanentes no repositório e aparecem em toda sessão.
+
+No Claude Code na nuvem, o `yt-dlp` e o `faster-whisper` precisam ser reinstalados a cada sessão nova, porque o ambiente recomeça do zero. As duas skills fazem isso sozinhas na primeira vez que são usadas.
 
 O agente verifica sozinho quais estão disponíveis no início de cada sessão e só oferece o que funciona. Sem elas, ele usa as alternativas próprias (Remotion, scripts e biblioteca do HeyGen).
 
@@ -124,14 +134,20 @@ Os dois cobram por créditos da própria plataforma. O agente sempre mostra o cu
   - `fonts.gstatic.com`
   - `img.ly` e `*.img.ly` (CoDesign, opcional)
   - `creativeclaw.co` e `*.creativeclaw.co` (Creative Claw, opcional)
-  - `huggingface.co` e `*.hf.co` (transcrição local do Reelsmaker, opcional)
+  - `huggingface.co` e `*.hf.co` (modelo do Whisper para `transcrever-whisper` e Reelsmaker, opcional)
+  - links de referência com `baixar-referencia` (opcional):
+    - YouTube: `youtube.com`, `*.youtube.com`, `*.googlevideo.com`, `*.ytimg.com`;
+    - TikTok: `tiktok.com`, `*.tiktok.com`, `*.tiktokcdn.com`;
+    - Instagram e Facebook: `instagram.com`, `*.instagram.com`, `*.cdninstagram.com`, `facebook.com`, `*.facebook.com`, `*.fbcdn.net`
+  - `github.com` e `raw.githubusercontent.com` (instalar as skills e Web Design Guidelines)
+  - `registry.npmjs.org` (Remotion e CLI do Hyperframes)
 
   Guia: https://code.claude.com/docs/en/cloud-environments#network-access
 
   Se os domínios do HeyGen continuarem bloqueados, o agente usa a ponte do ElevenLabs automaticamente.
 
 ### Claude Code no terminal
-- **Node.js 18+:** `node -v`
+- **Node.js 18+** (22+ para o Hyperframes): `node -v`
 - **Python 3:** `python3 --version`
 - **ffmpeg:** `ffmpeg -version`. Instale com `brew install ffmpeg` no Mac ou `sudo apt install ffmpeg` no Linux.
 - **Remotion:** o agente instala sozinho na primeira vez com `npm install`.
@@ -178,6 +194,9 @@ Para ir direto com os padrões recomendados, diga **"modo rápido"**.
 ## 9. Problemas comuns
 | Sintoma | Solução |
 |---|---|
+| Uma skill complementar não aparece | Rode `bash plugins/agente-criativos-vsl/instalar-skills.sh`, faça commit de `.agents/` e `.claude/` e abra uma sessão nova |
+| Whisper: "Não consegui carregar o modelo" | Libere `huggingface.co` e `*.hf.co` e abra uma sessão nova; enquanto isso, o agente usa os tempos da narração do HeyGen |
+| Link de referência não baixa | Libere os domínios da plataforma (passo 6) ou baixe o vídeo e envie o arquivo no chat; Instagram e Facebook às vezes exigem login |
 | O agente não responde a "agente criativo e vsl" | Abra uma sessão nova no repositório; confira se o `CLAUDE.md` da raiz tem o trecho do `CLAUDE-snippet.md` e se `.claude/skills/criativo-video` existe |
 | "Conector não disponível" | Conecte em claude.ai/customize/connectors e abra uma sessão nova |
 | O Claude não vê o repositório | Autorize o app do Claude no repositório (GitHub → Settings → Applications → Claude → Repository access) |

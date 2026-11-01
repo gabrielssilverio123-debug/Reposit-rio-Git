@@ -17,7 +17,7 @@ Objetivo: qualquer pessoa, sem conhecer edição, sai com um criativo ou VSL pro
 ## Etapa 0: Boas-vindas (1 mensagem)
 > Olá! Sou o **Agente Criativo e VSL**. Em 5 etapas a gente sai com o vídeo pronto: **1) configuração · 2) análise da sua página · 3) roteiro · 4) produção · 5) ajustes e entrega**. Você aprova cada etapa antes de eu gastar créditos. 📎 Em qualquer etapa você pode me mandar referências: um criativo que você gosta, roteiro, narração já gravada, fotos, vídeos, música ou o kit da marca.
 
-**Antes da primeira pergunta**, verifique em silêncio as skills complementares (Reelsmaker, CoDesign, Creative Claw; ver `skills-complementares.md`) e os conectores (HeyGen, ElevenLabs). Ofereça nas perguntas só o que funciona. Se algo estiver instalado mas indisponível (login ou rede), avise em uma linha e siga com a alternativa.
+**Antes da primeira pergunta**, verifique em silêncio as skills complementares (Reelsmaker, CoDesign, Creative Claw, Hyperframes, Remotion oficiais, Taste Skill, Web Design Guidelines, Whisper e yt-dlp; ver `skills-complementares.md`) e os conectores (HeyGen, ElevenLabs). Ofereça nas perguntas só o que funciona. Se algo estiver instalado mas indisponível (login ou rede), avise em uma linha e siga com a alternativa.
 
 ## Etapa 1: Configuração (rodada 1, 3 perguntas)
 1. **O que vamos criar?**
@@ -126,7 +126,7 @@ Avise em uma linha o que está fazendo a cada passo. Mostre o resultado nos chec
 2. ✅ **Look do avatar ou apresentador:** mostre a imagem antes do vídeo com sincronia labial, que é a etapa mais cara.
 3. **Vídeo com sincronia labial**, cenas por IA e clipes animados (2–3, nos momentos-chave), imagens oficiais da página.
 4. **Música e efeitos sonoros**, com som em toda transição.
-5. **Montagem** com os modelos (9:16: POV, Secret, Transformation; 16:9: VSL16x9) e os efeitos de `efeitos.md`.
+5. **Montagem** com os modelos (9:16: POV, Secret, Transformation; 16:9: VSL16x9) e os efeitos de `efeitos.md`. Siga `remotion-best-practices` (e `remotion-captions` / `remotion-render` quando for o caso). Para motion graphics mais elaborado (títulos 3D, transições, gráficos, kinetic type), monte a cena em **Hyperframes** (`hyperframes`, blocos do `hyperframes-registry`) e insira o MP4 no Remotion.
 6. ✅ **Prévia:** folha de miniaturas com 10–20 quadros-chave. Corrija sobreposições, texto pequeno e cortes antes do render final.
 7. **Render**, depois master −14 LUFS, depois compressão para menos de 100 MB e legenda `.srt`.
 
@@ -160,7 +160,8 @@ O material próprio tem prioridade sobre as cenas geradas por IA e reduz o custo
   - cortes curtos da VSL (15–30 s em 9:16);
   - versões A/B do gancho;
   - versão em outro idioma, reaproveitando cenas e trocando narração e legenda;
-  - **peças estáticas da campanha** no mesmo visual (capa ou thumbnail da VSL, posts, carrossel, stories), com a **CoDesign** se estiver disponível, ou com o Remotion `still`.
+  - **peças estáticas da campanha** no mesmo visual (capa ou thumbnail da VSL, posts, carrossel, stories), com a **CoDesign** se estiver disponível, ou com o Remotion `still`;
+  - **revisão da página de vendas** que recebe o tráfego: `web-design-guidelines` (acessibilidade e boas práticas) e `design-taste-frontend` (visual menos genérico), com a lista do que mudar antes de escalar o anúncio.
 - **Commit e push** da pasta `ads/<nome>/` com o `ROTEIRO.md` atualizado (produção, créditos usados, onde está cada arquivo).
 
 ---
@@ -185,6 +186,8 @@ O material próprio tem prioridade sobre as cenas geradas por IA e reduz o custo
 
 ## Como usar referências (todas as etapas)
 1. **Receber:** aceite arquivo (vídeo, áudio, imagem, PDF, HTML), link ou print. Salve em `ads/<nome>/assets/referencias/`, que fica fora do git.
+   - **Link de vídeo** (YouTube, TikTok, Instagram, Facebook, Biblioteca de Anúncios): baixe com a skill `baixar-referencia` (yt-dlp). Se a rede bloquear ou o vídeo exigir login, peça o arquivo.
+   - **Recriar a estrutura** de um vídeo de referência como projeto editável: skill `reverse-any-video` (Hyperframes), só como base de estrutura e ritmo.
 2. **Analisar antes de seguir** e mostrar uma **ficha da referência** de 4–6 linhas:
    - **Vídeo:**
      - duração, formato e cortes por segundo (`ffprobe` + folha de miniaturas a cada 1–2 s);
@@ -193,7 +196,7 @@ O material próprio tem prioridade sobre as cenas geradas por IA e reduz o custo
      - estilo de legenda e texto na tela;
      - efeitos usados (nomes do catálogo de `efeitos.md`);
      - energia da música;
-     - fala transcrita (ElevenLabs `creative_transcribe_audio`).
+     - fala transcrita com a skill `transcrever-whisper` (local, sem custo). Sem rede para o modelo, use ElevenLabs `creative_transcribe_audio`.
    - **Áudio de narração:**
      - transcrição com tempo por palavra, que vira `words.json`;
      - duração;
