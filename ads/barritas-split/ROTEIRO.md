@@ -1,6 +1,6 @@
 # Criativo "Tela dividida": Barritas Que Venden · 9:16 · 35 s · espanhol LATAM
 
-**Status:** roteiro para aprovação.
+**Status:** roteiro para aprovação (v2). Sem academia: o canal é o WhatsApp e o círculo da pessoa, que serve para qualquer cidade e escala melhor.
 
 **Formato demonstrativo em tela dividida:**
 - **metade de cima (1080×960):** o preparo das receitas;
@@ -15,7 +15,7 @@
 **Títulos de seção do validado:** VENTAS EN VOLUMEN · CLIENTES LISTOS · MÉTODO PROFESIONAL · EL NICHO QUE MÁS PAGA · MÁXIMA EFICIENCIA · DESCUBRE EL MÉTODO.
 
 **O que mantenho:**
-- a sequência gimnasio → billetera en la mano → nicho keto/proteico → una mañana → Eugenia → CTA;
+- a sequência canal de venda → billetera en la mano → nicho keto/proteico → una mañana → Eugenia → CTA (o "gimnasio" do validado vira WhatsApp e o círculo da pessoa);
 - os títulos de seção em caixa alta.
 
 **O que muda:**
@@ -41,20 +41,20 @@ Mantive a mesma promessa e a mesma curiosidade, como pergunta:
 | Tempo | Em cima: preparo | Embaixo: apresentadora | Texto na tela e efeito | Narração |
 |---|---|---|---|---|
 | 0–4 s | Close das barritas prontas e corte da primeira | Sobrancelha levantada, "¿en serio?" | Palavra que bate «24 HORAS» → «US$4.000» (selo Ejemplo), flash e tremida | *¿Primera venta en 24 horas… y US$4.000 en tu primer mes? Parece mentira. Mira cómo funciona.* |
-| 4–9 s | Bandeja de barritas na academia e mistura na tigela | Fala para a câmera | Título «VENTAS EN VOLUMEN», contador «50 / lunes» (Ejemplo), lista riscada «✕ de una en una» | *Un gimnasio en tu zona puede comprarte cincuenta barritas cada lunes. Olvídate de vender de una en una.* |
-| 9–13 s | Mãos misturando e prensando | Gesto de "dinheiro na mão" | Título «CLIENTES LISTOS», notificação «Nuevo pedido: 20 barritas» | *El secreto: poner tus barritas donde la gente ya tiene la billetera en la mano.* |
+| 4–8 s | Mãos misturando na tigela | Mostra o celular | Título «VENTAS POR WHATSAPP», chat entrando: «¿Tienes barritas hoy?» → «Quiero 6, porfa» → «Pedido: 6 · $13» (a simulação da própria página) | *Un mensaje por WhatsApp a tus contactos… y llegan los pedidos.* |
+| 8–13 s | Prensando a massa na forma | Conta nos dedos | Título «CLIENTES LISTOS», chips «VECINOS · TRABAJO · GRUPOS DEL BARRIO», notificações empilhando | *Vecinos, compañeros de trabajo, grupos del barrio: todos compran un snack todos los días.* |
 | 13–18 s | Barritas keto e proteicas e o processador | Fala | Título «EL NICHO QUE MÁS PAGA», chips «KETO · PROTEICAS · +MARGEN» | *Aprendes las líneas keto y proteicas: el snack de moda que más margen deja.* |
-| 18–23 s | Forma com damascos, prensando e cortando | Fala | Título «MÁXIMA EFICIENCIA», relógio «1 MAÑANA = STOCK DE LA SEMANA» | *En una sola mañana dejas el stock de la semana listo para entregar.* |
+| 18–23 s | Forma com damascos, prensando e cortando | Fala | Título «MÁXIMA EFICIENCIA», relógio «1 MAÑANA = STOCK DE LA SEMANA» | *En una sola mañana dejas listo el stock de la semana para entregar.* |
 | 23–28 s | Corte das barras e banho de chocolate | Sorriso | «CASO REAL · EUGENIA», carimbo «3 PUNTOS FIJOS» | *Así empezó Eugenia: una bandeja de prueba… hoy, tres puntos de venta fijos.* |
-| 28–35 s | Mockup do método (topo fora do quadro) | Aponta para baixo | Barra de comando «Asesor IA: calculando precios…», ~~US$57~~ → **US$9,90** «Ahorra 80%», CTA «DESCUBRE EL MÉTODO 👇» | *Y tu Asesor IA te calcula precios y mensajes. Todo por nueve noventa: toca el enlace.* |
+| 28–35 s | Mockup do método (topo fora do quadro) | Aponta para baixo | Chat do Asesor IA escrevendo a mensagem de WhatsApp, ~~US$57~~ → **US$9,90** «Ahorra 80%», CTA «DESCUBRE EL MÉTODO 👇» | *Tu Asesor IA te escribe los mensajes y calcula tus precios. Todo por nueve noventa: toca el enlace.* |
 
 **Narração corrida** (~100 palavras, cerca de 34 s a 1,15x):
-> ¿Primera venta en 24 horas… y US$4.000 en tu primer mes? Parece mentira. Mira cómo funciona. Un gimnasio en tu zona puede comprarte cincuenta barritas cada lunes. Olvídate de vender de una en una. El secreto: poner tus barritas donde la gente ya tiene la billetera en la mano. Aprendes las líneas keto y proteicas: el snack de moda que más margen deja. En una sola mañana dejas el stock de la semana listo para entregar. Así empezó Eugenia: una bandeja de prueba… hoy, tres puntos de venta fijos. Y tu Asesor IA te calcula precios y mensajes. Todo por nueve noventa: toca el enlace.
+> ¿Primera venta en 24 horas… y US$4.000 en tu primer mes? Parece mentira. Mira cómo funciona. Un mensaje por WhatsApp a tus contactos… y llegan los pedidos. Vecinos, compañeros de trabajo, grupos del barrio: todos compran un snack todos los días. Aprendes las líneas keto y proteicas: el snack de moda que más margen deja. En una sola mañana dejas listo el stock de la semana para entregar. Así empezó Eugenia: una bandeja de prueba… hoy, tres puntos de venta fijos. Tu Asesor IA te escribe los mensajes y calcula tus precios. Todo por nueve noventa: toca el enlace.
 
 **Som:**
 - música pop enérgica;
 - whoosh em cada troca de cena em cima;
-- impacto no gancho, "pop" nos títulos, notificação, caixa registradora no preço.
+- impacto no gancho, "pop" nos títulos, som de mensagem do WhatsApp a cada pedido, caixa registradora no preço.
 
 ## Material da metade de cima
 O vídeo enviado tem 406×720 (baixa resolução), legendas e títulos queimados na imagem e a marca d'água @barritasquevenden_. Na metade de cima, ampliado 2,7x, ele fica borrado e as legendas antigas aparecem por baixo das novas.
