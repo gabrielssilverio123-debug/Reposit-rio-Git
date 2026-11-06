@@ -1,0 +1,507 @@
+[
+{
+"word": "\u00bfPrimera",
+"start": 0.0,
+"end": 0.569
+},
+{
+"word": "venta",
+"start": 0.604,
+"end": 0.818
+},
+{
+"word": "en",
+"start": 0.853,
+"end": 0.889
+},
+{
+"word": "24",
+"start": 0.924,
+"end": 1.12
+},
+{
+"word": "horas\u2026",
+"start": 1.218,
+"end": 1.831
+},
+{
+"word": "y",
+"start": 1.956,
+"end": 2.169
+},
+{
+"word": "cuatro",
+"start": 2.204,
+"end": 2.417
+},
+{
+"word": "mil",
+"start": 2.453,
+"end": 2.596
+},
+{
+"word": "d\u00f3lares",
+"start": 2.631,
+"end": 2.951
+},
+{
+"word": "en",
+"start": 2.987,
+"end": 3.058
+},
+{
+"word": "tu",
+"start": 3.093,
+"end": 3.164
+},
+{
+"word": "primer",
+"start": 3.2,
+"end": 3.377
+},
+{
+"word": "mes?",
+"start": 3.449,
+"end": 3.612
+},
+{
+"word": "Parece",
+"start": 4.124,
+"end": 4.302
+},
+{
+"word": "mentira.",
+"start": 4.409,
+"end": 4.943
+},
+{
+"word": "Mira",
+"start": 5.053,
+"end": 5.231
+},
+{
+"word": "c\u00f3mo",
+"start": 5.266,
+"end": 5.408
+},
+{
+"word": "funciona.",
+"start": 5.444,
+"end": 5.903
+},
+{
+"word": "Un",
+"start": 6.034,
+"end": 6.227
+},
+{
+"word": "mensaje",
+"start": 6.263,
+"end": 6.619
+},
+{
+"word": "por",
+"start": 6.654,
+"end": 6.761
+},
+{
+"word": "WhatsApp",
+"start": 6.796,
+"end": 7.152
+},
+{
+"word": "a",
+"start": 7.223,
+"end": 7.259
+},
+{
+"word": "tus",
+"start": 7.294,
+"end": 7.401
+},
+{
+"word": "contactos\u2026",
+"start": 7.472,
+"end": 8.094
+},
+{
+"word": "y",
+"start": 8.151,
+"end": 8.337
+},
+{
+"word": "llegan",
+"start": 8.373,
+"end": 8.55
+},
+{
+"word": "los",
+"start": 8.586,
+"end": 8.729
+},
+{
+"word": "pedidos.",
+"start": 8.729,
+"end": 9.179
+},
+{
+"word": "Vecinos,",
+"start": 9.511,
+"end": 10.116
+},
+{
+"word": "compa\u00f1eros",
+"start": 10.259,
+"end": 10.72
+},
+{
+"word": "de",
+"start": 10.756,
+"end": 10.827
+},
+{
+"word": "trabajo,",
+"start": 10.863,
+"end": 11.378
+},
+{
+"word": "grupos",
+"start": 11.467,
+"end": 11.716
+},
+{
+"word": "del",
+"start": 11.752,
+"end": 11.859
+},
+{
+"word": "barrio:",
+"start": 11.93,
+"end": 12.451
+},
+{
+"word": "todos",
+"start": 12.463,
+"end": 12.748
+},
+{
+"word": "compran",
+"start": 12.818,
+"end": 13.103
+},
+{
+"word": "un",
+"start": 13.139,
+"end": 13.21
+},
+{
+"word": "snack",
+"start": 13.317,
+"end": 13.566
+},
+{
+"word": "todos",
+"start": 13.673,
+"end": 13.886
+},
+{
+"word": "los",
+"start": 13.957,
+"end": 14.028
+},
+{
+"word": "d\u00edas.",
+"start": 14.063,
+"end": 14.362
+},
+{
+"word": "Aprendes",
+"start": 14.604,
+"end": 15.066
+},
+{
+"word": "las",
+"start": 15.102,
+"end": 15.209
+},
+{
+"word": "l\u00edneas",
+"start": 15.244,
+"end": 15.529
+},
+{
+"word": "keto",
+"start": 15.635,
+"end": 15.813
+},
+{
+"word": "y",
+"start": 15.991,
+"end": 16.133
+},
+{
+"word": "proteicas:",
+"start": 16.169,
+"end": 16.72
+},
+{
+"word": "el",
+"start": 16.83,
+"end": 17.023
+},
+{
+"word": "snack",
+"start": 17.13,
+"end": 17.343
+},
+{
+"word": "de",
+"start": 17.414,
+"end": 17.486
+},
+{
+"word": "moda",
+"start": 17.521,
+"end": 17.734
+},
+{
+"word": "que",
+"start": 17.805,
+"end": 17.947
+},
+{
+"word": "m\u00e1s",
+"start": 17.983,
+"end": 18.232
+},
+{
+"word": "margen",
+"start": 18.338,
+"end": 18.623
+},
+{
+"word": "deja.",
+"start": 18.694,
+"end": 19.008
+},
+{
+"word": "En",
+"start": 19.123,
+"end": 19.371
+},
+{
+"word": "una",
+"start": 19.407,
+"end": 19.584
+},
+{
+"word": "sola",
+"start": 19.62,
+"end": 19.763
+},
+{
+"word": "ma\u00f1ana",
+"start": 19.834,
+"end": 20.118
+},
+{
+"word": "dejas",
+"start": 20.331,
+"end": 20.651
+},
+{
+"word": "listo",
+"start": 20.687,
+"end": 21.007
+},
+{
+"word": "el",
+"start": 21.078,
+"end": 21.149
+},
+{
+"word": "stock",
+"start": 21.22,
+"end": 21.469
+},
+{
+"word": "de",
+"start": 21.54,
+"end": 21.647
+},
+{
+"word": "la",
+"start": 21.682,
+"end": 21.718
+},
+{
+"word": "semana",
+"start": 21.754,
+"end": 22.109
+},
+{
+"word": "para",
+"start": 22.144,
+"end": 22.287
+},
+{
+"word": "entregar.",
+"start": 22.323,
+"end": 22.678
+},
+{
+"word": "As\u00ed",
+"start": 22.798,
+"end": 23.145
+},
+{
+"word": "empez\u00f3",
+"start": 23.181,
+"end": 23.501
+},
+{
+"word": "Eugenia:",
+"start": 23.536,
+"end": 23.98
+},
+{
+"word": "una",
+"start": 24.062,
+"end": 24.349
+},
+{
+"word": "bandeja",
+"start": 24.385,
+"end": 24.705
+},
+{
+"word": "de",
+"start": 24.74,
+"end": 24.846
+},
+{
+"word": "prueba\u2026",
+"start": 24.882,
+"end": 25.291
+},
+{
+"word": "hoy,",
+"start": 25.344,
+"end": 25.795
+},
+{
+"word": "tres",
+"start": 25.862,
+"end": 26.039
+},
+{
+"word": "puntos",
+"start": 26.11,
+"end": 26.43
+},
+{
+"word": "de",
+"start": 26.466,
+"end": 26.537
+},
+{
+"word": "venta",
+"start": 26.572,
+"end": 26.786
+},
+{
+"word": "fijos.",
+"start": 26.822,
+"end": 27.232
+},
+{
+"word": "Tu",
+"start": 27.595,
+"end": 27.665
+},
+{
+"word": "Asesor",
+"start": 27.701,
+"end": 28.021
+},
+{
+"word": "IA",
+"start": 28.057,
+"end": 28.235
+},
+{
+"word": "te",
+"start": 28.341,
+"end": 28.484
+},
+{
+"word": "escribe",
+"start": 28.52,
+"end": 28.733
+},
+{
+"word": "los",
+"start": 28.804,
+"end": 28.875
+},
+{
+"word": "mensajes",
+"start": 28.91,
+"end": 29.444
+},
+{
+"word": "y",
+"start": 29.55,
+"end": 29.621
+},
+{
+"word": "calcula",
+"start": 29.657,
+"end": 30.013
+},
+{
+"word": "tus",
+"start": 30.048,
+"end": 30.19
+},
+{
+"word": "precios.",
+"start": 30.261,
+"end": 30.67
+},
+{
+"word": "Todo",
+"start": 31.049,
+"end": 31.299
+},
+{
+"word": "por",
+"start": 31.334,
+"end": 31.44
+},
+{
+"word": "nueve",
+"start": 31.476,
+"end": 31.724
+},
+{
+"word": "noventa:",
+"start": 31.76,
+"end": 32.187
+},
+{
+"word": "toca",
+"start": 32.258,
+"end": 32.654
+},
+{
+"word": "el",
+"start": 32.69,
+"end": 32.726
+},
+{
+"word": "enlace.",
+"start": 32.761,
+"end": 33.27
+}
+]

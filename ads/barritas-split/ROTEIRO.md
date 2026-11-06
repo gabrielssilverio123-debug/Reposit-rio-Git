@@ -1,6 +1,6 @@
 # Criativo "Tela dividida": Barritas Que Venden · 9:16 · 35 s · espanhol LATAM
 
-**Status:** roteiro para aprovação (v2). Sem academia: o canal é o WhatsApp e o círculo da pessoa, que serve para qualquer cidade e escala melhor.
+**Status:** aprovado e produzido (v2). Sem academia: o canal é o WhatsApp e o círculo da pessoa, que serve para qualquer cidade e escala melhor.
 
 **Formato demonstrativo em tela dividida:**
 - **metade de cima (1080×960):** o preparo das receitas;
@@ -70,3 +70,34 @@ O vídeo enviado tem 406×720 (baixa resolução), legendas e títulos queimados
 - **Vídeo com sincronia labial:** cerca de 35 s, no mesmo look da apresentadora.
 - **Clipes novos (só se faltar material):** 2–3.
 - **Música e efeitos:** biblioteca, sem custo.
+
+---
+
+## Decisões do cliente (06/11)
+- **Gancho:** a apresentadora faz a pergunta e, na tela, entra uma chuva de notificações «¡Nueva venta!» com som de caixa registradora, valores pequenos de 1 a 5 barritas e o selo «Simulación».
+  - Os 3 prints de comprovante enviados (transferência de $20.524 para "Alejandro F", transferência de 269.138 MXN com o conceito "Brotech" e o saldo do Chime) ficaram de fora, porque nenhum liga o dinheiro às barritas.
+  - Para o Meta, print de saldo ou de transferência em anúncio de renda para público frio é motivo comum de reprovação.
+- **Parte de cima:** os dois vídeos de preparo enviados (declarados pelo cliente como próprios ou licenciados), sem áudio.
+  - No vídeo "No-bake nutty bars", o trecho em que a criadora aparece mordendo (cerca de 7,9–12 s) ficou de fora: só aparecem mãos e preparo.
+- **Narração:** a 1,20x, com a mesma apresentadora (avental verde, cozinha).
+
+## Produção
+- **Narração:** HeyGen, Lively Laura (Excited), velocidade 1,20, pausas cortadas, 33,6 s (`public/vo.wav`, `public/words.json`).
+- **Apresentadora:**
+  - look `225f08f5ad7295782b98817c9cc38ed5` com sincronia labial a partir da narração (vídeo HeyGen `3065c5490b34cdad61fd0bd2b35588e4`);
+  - instrução de movimento "mãos sempre vazias", para não repetir o objeto com texto ilegível que apareceu na V2.
+- **Faixa de cima:** `assets/top_shots.py` monta `public/top.mp4` (1080×960, 19 cortes alinhados à fala).
+- **Layout:**
+  - divisão em 860 px (cima 0–860, apresentadora 860–1920, rosto entre ~980 e 1500 px);
+  - legenda palavra por palavra sobre a linha da divisão.
+- **Efeitos:**
+  - zoom de impacto em cada corte e flash branco nas trocas de seção;
+  - zoom no rosto em «¿Parece mentira?», na Eugenia e no CTA;
+  - notificações de venda, chat do WhatsApp, chips, palavras que batem, barra de comando do Asesor IA;
+  - preço riscado e CTA pulsando.
+- **Som:**
+  - pop enérgico (biblioteca HeyGen);
+  - caixa registradora e notificação no gancho, mensagem a cada pedido do WhatsApp;
+  - whoosh em cada corte (mais forte nas trocas de seção) e impactos nos destaques.
+- **Master:** −14 LUFS.
+- **Entrega:** `final/split-renda-extra-9x16.mp4`, `.es.srt` e `contact-sheet.jpg`.
