@@ -41,7 +41,7 @@ Mantive a mesma promessa e a mesma curiosidade, como pergunta:
 | Tempo | Em cima: preparo | Embaixo: apresentadora | Texto na tela e efeito | Narração |
 |---|---|---|---|---|
 | 0–4 s | Close das barritas prontas e corte da primeira | Sobrancelha levantada, "¿en serio?" | Palavra que bate «24 HORAS» → «US$4.000» (selo Ejemplo), flash e tremida | *¿Primera venta en 24 horas… y US$4.000 en tu primer mes? Parece mentira. Mira cómo funciona.* |
-| 4–8 s | Mãos misturando na tigela | Mostra o celular | Título «VENTAS POR WHATSAPP», chat entrando: «¿Tienes barritas hoy?» → «Quiero 6, porfa» → «Pedido: 6 · $13» (a simulação da própria página) | *Un mensaje por WhatsApp a tus contactos… y llegan los pedidos.* |
+| 4–8 s | Mãos misturando na tigela | Mostra o celular | Título «VENTAS POR WHATSAPP», chat entrando: «¿Tienes barritas hoy?» → «¡Quiero!» e várias notificações de mensagem empilhando | *Un mensaje por WhatsApp a tus contactos… y llegan los pedidos.* |
 | 8–13 s | Prensando a massa na forma | Conta nos dedos | Título «CLIENTES LISTOS», chips «VECINOS · TRABAJO · GRUPOS DEL BARRIO», notificações empilhando | *Vecinos, compañeros de trabajo, grupos del barrio: todos compran un snack todos los días.* |
 | 13–18 s | Barritas keto e proteicas e o processador | Fala | Título «EL NICHO QUE MÁS PAGA», chips «KETO · PROTEICAS · +MARGEN» | *Aprendes las líneas keto y proteicas: el snack de moda que más margen deja.* |
 | 18–23 s | Forma com damascos, prensando e cortando | Fala | Título «MÁXIMA EFICIENCIA», relógio «1 MAÑANA = STOCK DE LA SEMANA» | *En una sola mañana dejas listo el stock de la semana para entregar.* |
