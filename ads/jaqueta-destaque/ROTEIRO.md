@@ -1,6 +1,6 @@
 # Vídeo "Destaques" da jaqueta azul-marinho · Shopify · 1:1 · 1080×1080 · 15 s (1,20x) · sem áudio
 
-**Status:** roteiro para aprovação.
+**Status:** aprovado e produzido. Puxador do bolso: prateado e liso (foto 4). Sem vídeo de motion control: cada cena foi gerada a partir das fotos reais.
 
 **Mãos (iguais em todos os planos):**
 - só aparecem as mãos e os antebraços;
@@ -40,3 +40,17 @@
 ## Custo estimado
 - 1 imagem (a jaqueta deitada na mesa);
 - 8 a 9 gerações de vídeo HeyGen em 1080p.
+
+## Produção (feita)
+- **Quadros gerados:**
+  - a jaqueta deitada na mesa (GPT Image 2.6, a partir das fotos 1 e da caixa);
+  - o bolso meio aberto, usado como quadro final para travar o sentido do zíper.
+- **Foto 3 (celular):** recortada para tirar o puxador preto «FASHION» e manter o prateado.
+- **Vídeos:** HeyGen image-to-video, 1080p, 5 s, "ultraquality".
+  - 8 cenas, mais a cena do bolso refeita: na primeira tentativa o puxador ficou preto e o sentido saiu confuso;
+  - a refeita usa quadro inicial e quadro final.
+- **Montagem (ffmpeg):**
+  - trechos de 1,7 a 2,8 s, somando 18 s, acelerados em 1,20x até 15 s;
+  - zoom suave em cada corte e fade;
+  - sem áudio nem texto.
+- **Entrega:** `final/jaqueta-destaques-1080x1080.mp4` e `final/contact-sheet.jpg`.
